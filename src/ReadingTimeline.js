@@ -3,10 +3,10 @@ import { OrdinalFrame } from "semiotic";
 import { scaleTime } from "d3-scale";
 import { timeFormat } from "d3-time-format";
 
-const timescale = scaleTime().domain([
-  new Date(2000, 0, 1),
-  new Date(2000, 11, 31)
-]);
+var timescaleFormat = timeFormat("%b %e");
+const timescale = scaleTime()
+  .domain([new Date(2000, 0, 1), new Date(2000, 11, 31)])
+  .nice();
 
 const colors = {
   Fiction: 4,
@@ -70,7 +70,7 @@ const frameProps = {
         {d}
       </text>
     )),
-  axes: [{ orient: "bottom", ticks: 4 }],
+  axes: [{ orient: "bottom", ticks: 10, tickFormat: timescaleFormat }],
   oLabel: d => (
     <text textAnchor="end" fontSize="11">
       {d}
