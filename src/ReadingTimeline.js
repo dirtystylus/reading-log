@@ -70,7 +70,7 @@ const frameProps = {
         {d}
       </text>
     )),
-  axes: [{ orient: "bottom", ticks: 10, tickFormat: timescaleFormat }],
+  axes: [{ orient: "bottom", ticks: 4, tickFormat: timescaleFormat }],
   oLabel: d => (
     <text textAnchor="end" fontSize="11">
       {d}
