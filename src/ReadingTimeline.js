@@ -211,6 +211,13 @@ const frameProps = {
       genre: "Nonfiction"
     },
     {
+      name: "Bowlaway",
+      author: "Elizabeth McCracken",
+      start: new Date(2019, 3, 9),
+      end: new Date(2019, 3, 24),
+      genre: "Fiction"
+    },
+    {
       name: "Trick Mirror",
       author: "Jia Tolentino",
       start: new Date(2019, 11, 30),
