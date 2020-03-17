@@ -28,175 +28,175 @@ const theme = [
 const frameProps = {
   data: [
     {
-      name: "China Rich Girlfriend",
+      title: "China Rich Girlfriend",
       author: "Kevin Kwan",
       start: new Date(2019, 0, 2),
       end: new Date(2019, 0, 8),
       genre: "Fiction"
     },
     {
-      name: "Good and Mad",
+      title: "Good and Mad",
       author: "Rebecca Traister",
       start: new Date(2019, 0, 2),
       end: new Date(2019, 0, 10),
       genre: "Nonfiction"
     },
     {
-      name: "The Long Way to a Small, Angry Planet",
+      title: "The Long Way to a Small, Angry Planet",
       author: "Becky Chambers",
       start: new Date(2019, 0, 10),
       end: new Date(2019, 0, 19),
       genre: "Fiction"
     },
     {
-      name: "The Friend",
+      title: "The Friend",
       author: "Sigrid Nunez",
       start: new Date(2019, 0, 12),
       end: new Date(2019, 0, 13),
       genre: "Fiction"
     },
     {
-      name: "His Dark Materials: The Golden Compass",
+      title: "His Dark Materials: The Golden Compass",
       author: "Philip Pullman",
       start: new Date(2019, 0, 14),
       end: new Date(2019, 4, 12),
       genre: "Fiction"
     },
     {
-      name: "Check, Please! (Book #1: #Hockey)",
+      title: "Check, Please! (Book #1: #Hockey)",
       author: "Ngozi Ukazu",
       start: new Date(2019, 0, 19),
       end: new Date(2019, 1, 19),
       genre: "Comic"
     },
     {
-      name: "Flights",
+      title: "Flights",
       author: "Olga Tokarczuk",
       start: new Date(2019, 0, 19),
       end: new Date(2019, 1, 10),
       genre: "Fiction"
     },
     {
-      name: "Washington Black",
+      title: "Washington Black",
       author: "Esi Edugyan",
       start: new Date(2019, 0, 22),
       end: new Date(2019, 1, 1),
       genre: "Fiction"
     },
     {
-      name: "The Essex Serpent",
+      title: "The Essex Serpent",
       author: "Sarah Perry",
       start: new Date(2019, 0, 26),
       end: new Date(2019, 1, 7),
       genre: "Fiction"
     },
     {
-      name: "The New Jim Crow",
+      title: "The New Jim Crow",
       author: "Michelle Alexander",
       start: new Date(2019, 1, 4),
       end: new Date(2019, 2, 12),
       genre: "Nonfiction"
     },
     {
-      name: "Upgrade Soul",
+      title: "Upgrade Soul",
       author: "Ezra Clattan Daniels",
       start: new Date(2019, 1, 9),
       end: new Date(2019, 1, 9),
       genre: "Comic"
     },
     {
-      name: "Melmoth",
+      title: "Melmoth",
       author: "Sarah Perry",
       start: new Date(2019, 1, 10),
       end: new Date(2019, 1, 17),
       genre: "Fiction"
     },
     {
-      name: "Today Will Be Different",
+      title: "Today Will Be Different",
       author: "Maria Semple",
       start: new Date(2019, 1, 21),
       end: new Date(2019, 1, 22),
       genre: "Fiction"
     },
     {
-      name: "The Mere Wife",
+      title: "The Mere Wife",
       author: "Maria Dahvana Headley",
       start: new Date(2019, 1, 23),
       end: new Date(2019, 1, 24),
       genre: "Fiction"
     },
     {
-      name: "Eleanor Oliphant is completely fine",
+      title: "Eleanor Oliphant is completely fine",
       author: "Gail Honeyman",
       start: new Date(2019, 1, 24),
       end: new Date(2019, 1, 28),
       genre: "Fiction"
     },
     {
-      name: "Americanah",
+      title: "Americanah",
       author: "Chimamanda Ngozi Adichie",
       start: new Date(2019, 2, 1),
       end: new Date(2019, 2, 8),
       genre: "Fiction"
     },
     {
-      name: "The Power",
+      title: "The Power",
       author: "Naomi Alderman",
       start: new Date(2019, 2, 8),
       end: new Date(2019, 2, 15),
       genre: "Fiction"
     },
     {
-      name: "Black Panther: A Nation Under our Feet, Book Two",
+      title: "Black Panther: A Nation Under our Feet, Book Two",
       author: "Ta-Nehisi Coates",
       start: new Date(2019, 1, 26),
       end: new Date(2019, 2, 15),
       genre: "Comic"
     },
     {
-      name: "Black Panther: A Nation Under our Feet, Book Three",
+      title: "Black Panther: A Nation Under our Feet, Book Three",
       author: "Ta-Nehisi Coates",
       start: new Date(2019, 2, 15),
       end: new Date(2019, 2, 16),
       genre: "Comic"
     },
     {
-      name: "The Cross and The Lynching Tree",
+      title: "The Cross and The Lynching Tree",
       author: "James Cone",
       start: new Date(2019, 2, 15),
       end: new Date(2019, 2, 26),
       genre: "Nonfiction"
     },
     {
-      name: "A Tale for the Time Being",
+      title: "A Tale for the Time Being",
       author: "Ruth Ozeki",
       start: new Date(2019, 2, 16),
       end: new Date(2019, 2, 24),
       genre: "Fiction"
     },
     {
-      name: "Everything You Never Told Me",
+      title: "Everything You Never Told Me",
       author: "Celeste Ng",
       start: new Date(2019, 2, 18),
       end: new Date(2019, 2, 21),
       genre: "Fiction"
     },
     {
-      name: "The Wildstorm, Vol. 3",
+      title: "The Wildstorm, Vol. 3",
       author: "Warren Ellis and Jon Davis-Hunt",
       start: new Date(2019, 2, 23),
       end: new Date(2019, 2, 24),
       genre: "Comic"
     },
     {
-      name: "Mr. Fox",
+      title: "Mr. Fox",
       author: "Helen Oyeyemi",
       start: new Date(2019, 2, 29),
       end: new Date(2019, 3, 15),
       genre: "Fiction"
     },
     {
-      name:
+      title:
         "Parenting Forward: How to Raise Children with Justin, Mercy, and Kindness",
       author: "Cindy Wang Brandt",
       start: new Date(2019, 2, 30),
@@ -204,21 +204,308 @@ const frameProps = {
       genre: "Nonfiction"
     },
     {
-      name: "The Library Book",
+      title: "The Library Book",
       author: "Susan Orlean",
       start: new Date(2019, 3, 2),
       end: new Date(2019, 3, 8),
       genre: "Nonfiction"
     },
     {
-      name: "Bowlaway",
+      title: "Bowlaway",
       author: "Elizabeth McCracken",
       start: new Date(2019, 3, 9),
       end: new Date(2019, 3, 24),
       genre: "Fiction"
     },
     {
-      name: "Trick Mirror",
+      title: "Immigrant, Montana",
+      author: "Amitava Kumar",
+      start: new Date(2019, 3, 9),
+      end: new Date(2019, 3, 16),
+      genre: "Fiction"
+    },
+    {
+      title: "My Heroes Have Always Been Junkies",
+      author: "Ed Brubaker and Sean Phillips",
+      start: new Date(2019, 3, 17),
+      end: new Date(2019, 4, 3),
+      genre: "Comic"
+    },
+    {
+      title: "The Anatomy of Dreams",
+      author: "Chloe Benjamin",
+      start: new Date(2019, 3, 26),
+      end: new Date(2019, 3, 28),
+      genre: "Fiction"
+    },
+    {
+      title: "Infinite Detail",
+      author: "Tim Maughan",
+      start: new Date(2019, 3, 29),
+      end: new Date(2019, 4, 2),
+      genre: "Fiction"
+    },
+    {
+      title: "The Old Drift",
+      author: "Namwali Serpell",
+      start: new Date(2019, 4, 2),
+      end: new Date(2019, 4, 26),
+      genre: "Fiction"
+    },
+    {
+      title: "Where’d You Go, Bernadette?",
+      author: "Maria Semple",
+      start: new Date(2019, 4, 6),
+      end: new Date(2019, 4, 15),
+      genre: "Fiction"
+    },
+    {
+      title: "The Land of Stories: The Enchantress Returns",
+      author: "Chris Colfer",
+      start: new Date(2019, 4, 12),
+      end: new Date(2019, 8, 8),
+      genre: "Fiction"
+    },
+    {
+      title: "His Dark Materials: The Subtle Knife",
+      author: "Philip Pullman",
+      start: new Date(2019, 4, 13),
+      end: new Date(2019, 8, 25),
+      genre: "Fiction"
+    },
+    {
+      title: "The Remains of the Day",
+      author: "Kazuo Ishiguro",
+      start: new Date(2019, 4, 15),
+      end: new Date(2019, 4, 21),
+      genre: "Fiction"
+    },
+    {
+      title: "Y: The Last Man: Vol. 1",
+      author: "Brian K. Vaughan and Pia Guerra",
+      start: new Date(2019, 4, 18),
+      end: new Date(2019, 4, 19),
+      genre: "Comic"
+    },
+    {
+      title: "Y: The Last Man: Vol. 2",
+      author: "Brian K. Vaughan and Pia Guerra",
+      start: new Date(2019, 4, 19),
+      end: new Date(2019, 4, 19),
+      genre: "Comic"
+    },
+    {
+      title: "Y: The Last Man: Vol. 3",
+      author: "Brian K. Vaughan and Pia Guerra",
+      start: new Date(2019, 4, 19),
+      end: new Date(2019, 4, 19),
+      genre: "Comic"
+    },
+    {
+      title: "Rich People Problems",
+      author: "Kevin Kwan",
+      start: new Date(2019, 4, 21),
+      end: new Date(2019, 4, 22),
+      genre: "Fiction"
+    },
+    {
+      title: "The Witch Elm",
+      author: "Tana French",
+      start: new Date(2019, 4, 24),
+      end: new Date(2019, 4, 29),
+      genre: "Fiction"
+    },
+    {
+      title: "Euphoria",
+      author: "Lily King",
+      start: new Date(2019, 4, 31),
+      end: new Date(2019, 5, 1),
+      genre: "Fiction"
+    },
+    {
+      title: "Y: The Last Man: Vol. 4",
+      author: "Brian K. Vaughan and Pia Guerra",
+      start: new Date(2019, 5, 4),
+      end: new Date(2019, 5, 4),
+      genre: "Comic"
+    },
+    {
+      title: "Y: The Last Man: Vol. 5",
+      author: "Brian K. Vaughan and Pia Guerra",
+      start: new Date(2019, 5, 4),
+      end: new Date(2019, 5, 4),
+      genre: "Comic"
+    },
+    {
+      title: "Thick",
+      author: "Tressie McMillan Cottom",
+      start: new Date(2019, 5, 5),
+      end: new Date(2019, 5, 10),
+      genre: "Nonfiction"
+    },
+    {
+      title: "Daisy Jones & The Six",
+      author: "Taylor Jenkins Reid",
+      start: new Date(2019, 5, 11),
+      end: new Date(2019, 5, 12),
+      genre: "Fiction"
+    },
+    {
+      title: "Resilient Management",
+      author: "Lara Hogan",
+      start: new Date(2019, 5, 13),
+      end: new Date(2019, 5, 21),
+      genre: "Nonfiction"
+    },
+    {
+      title: "Y: The Last Man: Vol. 6",
+      author: "Brian K. Vaughan and Pia Guerra",
+      start: new Date(2019, 5, 13),
+      end: new Date(2019, 5, 13),
+      genre: "Comic"
+    },
+    {
+      title: "Packinko",
+      author: "Min Jin Lee",
+      start: new Date(2019, 5, 15),
+      end: new Date(2019, 5, 18),
+      genre: "Fiction"
+    },
+    {
+      title: "Trust Exercise",
+      author: "Susan Choi",
+      start: new Date(2019, 5, 21),
+      end: new Date(2019, 5, 22),
+      genre: "Fiction"
+    },
+    {
+      title: "Lost and Wanted",
+      author: "Nell Freudenberger",
+      start: new Date(2019, 5, 22),
+      end: new Date(2019, 5, 25),
+      genre: "Fiction"
+    },
+    {
+      title: "Empress of Forever",
+      author: "Max Gladstone",
+      start: new Date(2019, 5, 25),
+      end: new Date(2019, 6, 5),
+      genre: "Fiction"
+    },
+    {
+      title: "Y: The Last Man: Vol. 7",
+      author: "Brian K. Vaughan and Pia Guerra",
+      start: new Date(2019, 5, 29),
+      end: new Date(2019, 5, 29),
+      genre: "Comic"
+    },
+    {
+      title: "Y: The Last Man: Vol. 8",
+      author: "Brian K. Vaughan and Pia Guerra",
+      start: new Date(2019, 5, 29),
+      end: new Date(2019, 5, 29),
+      genre: "Comic"
+    },
+    {
+      title: "Y: The Last Man: Vol. 9",
+      author: "Brian K. Vaughan and Pia Guerra",
+      start: new Date(2019, 5, 30),
+      end: new Date(2019, 5, 30),
+      genre: "Comic"
+    },
+    {
+      title: "Y: The Last Man: Vol. 10",
+      author: "Brian K. Vaughan and Pia Guerra",
+      start: new Date(2019, 6, 1),
+      end: new Date(2019, 6, 1),
+      genre: "Comic"
+    },
+    {
+      title: "Normal People",
+      author: "Sally Rooney",
+      start: new Date(2019, 6, 2),
+      end: new Date(2019, 6, 3),
+      genre: "Fiction"
+    },
+    {
+      title: "In the Woods",
+      author: "Tana French",
+      start: new Date(2019, 6, 3),
+      end: new Date(2019, 6, 4),
+      genre: "Fiction"
+    },
+    {
+      title: "The Victorian Internet",
+      author: "Tom Standage",
+      start: new Date(2019, 6, 5),
+      end: new Date(2019, 6, 8),
+      genre: "Nonfiction"
+    },
+    {
+      title: "American Spy",
+      author: "Lauren Wilkinson",
+      start: new Date(2019, 6, 9),
+      end: new Date(2019, 6, 11),
+      genre: "Fiction"
+    },
+    {
+      title: "Severance",
+      author: "Ling Ma",
+      start: new Date(2019, 6, 11),
+      end: new Date(2019, 6, 13),
+      genre: "Fiction"
+    },
+    {
+      title: "The Parisian",
+      author: "Isabella Hammad",
+      start: new Date(2019, 6, 11),
+      end: new Date(2019, 6, 16),
+      genre: "Fiction"
+    },
+    {
+      title: "Paper Girls: Vol. 3",
+      author: "Brian K. Vaughan and Cliff Chiang",
+      start: new Date(2019, 6, 16),
+      end: new Date(2019, 6, 17),
+      genre: "Comic"
+    },
+    {
+      title: "The Other Americans",
+      author: "Laila Lalami",
+      start: new Date(2019, 6, 19),
+      end: new Date(2019, 6, 22),
+      genre: "Fiction"
+    },
+    {
+      title: "Paper Girls: Vol. 4",
+      author: "Brian K. Vaughan and Cliff Chiang",
+      start: new Date(2019, 6, 20),
+      end: new Date(2019, 6, 20),
+      genre: "Comic"
+    },
+    {
+      title: "Paper Girls: Vol. 5",
+      author: "Brian K. Vaughan and Cliff Chiang",
+      start: new Date(2019, 6, 21),
+      end: new Date(2019, 6, 21),
+      genre: "Comic"
+    },
+    {
+      title: "The Porpoise",
+      author: "Mark Haddon",
+      start: new Date(2019, 6, 23),
+      end: new Date(2019, 6, 28),
+      genre: "Fiction"
+    },
+    {
+      title: "Standard Deviation",
+      author: "Katherine Heiny",
+      start: new Date(2019, 6, 26),
+      end: new Date(2019, 6, 27),
+      genre: "Fiction"
+    },
+    {
+      title: "Trick Mirror",
       author: "Jia Tolentino",
       start: new Date(2019, 11, 30),
       end: new Date(2019, 11, 31),
@@ -230,7 +517,7 @@ const frameProps = {
   type: "timeline",
   projection: "horizontal",
   oPadding: 2,
-  oAccessor: "name",
+  oAccessor: "title",
   rAccessor: function(e) {
     return [e.start, e.end];
   },
