@@ -4,9 +4,10 @@ import { scaleTime } from "d3-scale";
 import { timeFormat } from "d3-time-format";
 
 var timescaleFormat = timeFormat("%b %e");
-const timescale = scaleTime()
-  .domain([new Date(2019, 0, 1), new Date(2019, 11, 31)])
-  .nice();
+const timescale = scaleTime().domain([
+  new Date(2019, 0, 1),
+  new Date(2019, 11, 31)
+]);
 
 const colors = {
   Fiction: 4,
@@ -505,6 +506,146 @@ const frameProps = {
       genre: "Fiction"
     },
     {
+      title: "Conversations with Friends",
+      author: "Sally Rooney",
+      start: new Date(2019, 6, 27),
+      end: new Date(2019, 6, 29),
+      genre: "Fiction"
+    },
+    {
+      title: "Divided We Fail",
+      author: "Sarah Garland",
+      start: new Date(2019, 6, 29),
+      end: new Date(2019, 8, 11),
+      genre: "Nonfiction"
+    },
+    {
+      title: "Beautiful Ruin",
+      author: "Jess Walter",
+      start: new Date(2019, 6, 30),
+      end: new Date(2019, 7, 2),
+      genre: "Fiction"
+    },
+    {
+      title: "A Brief History of Seven Killings",
+      author: "Marlon James",
+      start: new Date(2019, 7, 2),
+      end: new Date(2019, 7, 9),
+      genre: "Fiction"
+    },
+    {
+      title: "I Like to Watch",
+      author: "Emily Nussbaum",
+      start: new Date(2019, 7, 10),
+      end: new Date(2019, 7, 12),
+      genre: "Nonfiction"
+    },
+    {
+      title: "The Paragon Hotel",
+      author: "Lyndsey Faye",
+      start: new Date(2019, 7, 14),
+      end: new Date(2019, 7, 18),
+      genre: "Fiction"
+    },
+    {
+      title: "Big Sky",
+      author: "Kate Atkinson",
+      start: new Date(2019, 7, 19),
+      end: new Date(2019, 7, 20),
+      genre: "Fiction"
+    },
+    {
+      title: "Lock Every Door",
+      author: "Riley Sager",
+      start: new Date(2019, 7, 21),
+      end: new Date(2019, 7, 22),
+      genre: "Fiction"
+    },
+    {
+      title: "Parable of the Sower",
+      author: "Octavia Butler",
+      start: new Date(2019, 7, 23),
+      end: new Date(2019, 8, 15),
+      genre: "Fiction"
+    },
+    {
+      title: "Ms Marvel Vol. 5: Super Famous",
+      author: "G. Willow Wilson and Takeshi Miyazawa",
+      start: new Date(2019, 7, 25),
+      end: new Date(2019, 7, 26),
+      genre: "Comic"
+    },
+    {
+      title: "Thor Vol. 1: The Goddess of Thunder",
+      author: "Jason Aaron, Russel Dauterman, and Jorge Molina",
+      start: new Date(2019, 7, 26),
+      end: new Date(2019, 7, 26),
+      genre: "Comic"
+    },
+    {
+      title: "Ms Marvel Vol. 6: Civil War II",
+      author: "G. Willow Wilson and Takeshi Miyazawa",
+      start: new Date(2019, 7, 31),
+      end: new Date(2019, 7, 31),
+      genre: "Comic"
+    },
+    {
+      title: "The Mighty Thor Vol. 1: Thunder in Her Veins",
+      author: "Jason Aaron, Russel Dauterman",
+      start: new Date(2019, 8, 1),
+      end: new Date(2019, 8, 1),
+      genre: "Comic"
+    },
+    {
+      title: "Ms Marvel Vol. 7: Damage per Second",
+      author: "G. Willow Wilson and Takeshi Miyazawa",
+      start: new Date(2019, 8, 2),
+      end: new Date(2019, 8, 2),
+      genre: "Comic"
+    },
+    {
+      title: "On Earth We’re Briefly Gorgeous",
+      author: "Ocean Vuong",
+      start: new Date(2019, 8, 4),
+      end: new Date(2019, 8, 8),
+      genre: "Fiction"
+    },
+    {
+      title: "Prism Stalker Vol. 1",
+      author: "Sloane Leong",
+      start: new Date(2019, 8, 2),
+      end: new Date(2019, 8, 7),
+      genre: "Comic"
+    },
+    {
+      title: "The Dearly Beloved",
+      author: "Cara Wall",
+      start: new Date(2019, 8, 14),
+      end: new Date(2019, 8, 14),
+      genre: "Fiction"
+    },
+    {
+      title: "How to be an antiracist",
+      author: "Ibram X. Kendi",
+      start: new Date(2019, 8, 15),
+      end: new Date(2019, 8, 25),
+      genre: "Nonfiction"
+    },
+    {
+      title: "The Overstory",
+      author: "Richard Powers",
+      start: new Date(2019, 8, 21),
+      end: new Date(2019, 8, 23),
+      genre: "Fiction"
+    },
+    {
+      title: "Fleishman is in Trouble",
+      author: "Taffy Brodesser-Akner",
+      start: new Date(2019, 8, 25),
+      end: new Date(2019, 8, 26),
+      genre: "Fiction"
+    },
+    {
       title: "Trick Mirror",
       author: "Jia Tolentino",
       start: new Date(2019, 11, 30),
@@ -512,7 +653,7 @@ const frameProps = {
       genre: "Nonfiction"
     }
   ],
-  size: [900, 800],
+  size: [1600, 1000],
   margin: { left: 200, top: 40, bottom: 50, right: 20 },
   type: "timeline",
   projection: "horizontal",
