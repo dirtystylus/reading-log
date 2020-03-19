@@ -646,6 +646,244 @@ const frameProps = {
       genre: "Fiction"
     },
     {
+      title: "Go Ahead in the Rain: Notes to A Tribe Called Quest",
+      author: "Hanif Abdurraquib",
+      start: new Date(2019, 8, 27),
+      end: new Date(2019, 8, 30),
+      genre: "Nonfiction"
+    },
+    {
+      title: "Disappearing Earth",
+      author: "Julia Phillips",
+      start: new Date(2019, 8, 28),
+      end: new Date(2019, 8, 29),
+      genre: "Fiction"
+    },
+    {
+      title: "Frankly in Love",
+      author: "David Yoon",
+      start: new Date(2019, 8, 30),
+      end: new Date(2019, 9, 1),
+      genre: "Fiction"
+    },
+    {
+      title: "Everyday Information Architecture",
+      author: "Lisa Maria Martin",
+      start: new Date(2019, 9, 2),
+      end: new Date(2019, 9, 12),
+      genre: "Nonfiction"
+    },
+    {
+      title: "We are Never Meeting in Real Life",
+      author: "Samantha Irby",
+      start: new Date(2019, 9, 6),
+      end: new Date(2019, 11, 5),
+      genre: "Nonfiction"
+    },
+    {
+      title: "That All Shall be Saved",
+      author: "David Bentley Hart",
+      start: new Date(2019, 9, 8),
+      end: new Date(2019, 9, 11),
+      genre: "Nonfiction"
+    },
+    {
+      title: "Rules for Visiting",
+      author: "Jessica Francis Kane",
+      start: new Date(2019, 9, 12),
+      end: new Date(2019, 9, 13),
+      genre: "Fiction"
+    },
+    {
+      title: "Horror Stories",
+      author: "Liz Phair",
+      start: new Date(2019, 9, 13),
+      end: new Date(2019, 9, 15),
+      genre: "Nonfiction"
+    },
+    {
+      title: "The First Rule of Punk",
+      author: "Celia C. Pérez",
+      start: new Date(2019, 9, 16),
+      end: new Date(2019, 9, 17),
+      genre: "Fiction"
+    },
+    {
+      title: "The Tenth Muse",
+      author: "Catherine Chung",
+      start: new Date(2019, 9, 18),
+      end: new Date(2019, 9, 20),
+      genre: "Fiction"
+    },
+    {
+      title: "Survival Math",
+      author: "Mitchell S. Jackson",
+      start: new Date(2019, 9, 19),
+      end: new Date(2019, 9, 31),
+      genre: "Nonfiction"
+    },
+    {
+      title: "The Learning Curve",
+      author: "Mandy Berman",
+      start: new Date(2019, 9, 21),
+      end: new Date(2019, 9, 23),
+      genre: "Fiction"
+    },
+    {
+      title: "Red at the Bone",
+      author: "Jacqueline Woodson",
+      start: new Date(2019, 10, 1),
+      end: new Date(2019, 10, 2),
+      genre: "Fiction"
+    },
+    {
+      title: "The Secrets We Kept",
+      author: "Lara Prescott",
+      start: new Date(2019, 10, 2),
+      end: new Date(2019, 10, 3),
+      genre: "Fiction"
+    },
+    {
+      title: "Tumbling",
+      author: "Diane McKinney-Whetstone",
+      start: new Date(2019, 10, 5),
+      end: new Date(2019, 10, 13),
+      genre: "Fiction"
+    },
+    {
+      title: "Batgirl Vol. 5: Art of the Crime",
+      author: "Mairghread Scott and Paul Pelletier",
+      start: new Date(2019, 10, 10),
+      end: new Date(2019, 10, 10),
+      genre: "Comic"
+    },
+    {
+      title: "Commonwealth",
+      author: "Ann Patchett",
+      start: new Date(2019, 10, 14),
+      end: new Date(2019, 10, 17),
+      genre: "Fiction"
+    },
+    {
+      title: "Dominicana",
+      author: "Angie Cruz",
+      start: new Date(2019, 10, 17),
+      end: new Date(2019, 10, 21),
+      genre: "Fiction"
+    },
+    {
+      title: "Paper Girls: Vol. 6",
+      author: "Brian K. Vaughan and Cliff Chiang",
+      start: new Date(2019, 10, 18),
+      end: new Date(2019, 10, 18),
+      genre: "Comic"
+    },
+    {
+      title: "Shameless: A Sexual Reformation",
+      author: "Nadia Bolz-Weber",
+      start: new Date(2019, 10, 18),
+      end: new Date(2019, 10, 18),
+      genre: "Nonfiction"
+    },
+    {
+      title: "The Snakes",
+      author: "Sadie Jones",
+      start: new Date(2019, 10, 22),
+      end: new Date(2019, 10, 23),
+      genre: "Fiction"
+    },
+    {
+      title: "Does Jesus Really Love Me?",
+      author: "Jeff Chu",
+      start: new Date(2019, 10, 23),
+      end: new Date(2019, 10, 29),
+      genre: "Nonfiction"
+    },
+    {
+      title: "Dept. of Speculation",
+      author: "Jenny Offill",
+      start: new Date(2019, 10, 24),
+      end: new Date(2019, 10, 24),
+      genre: "Fiction"
+    },
+    {
+      title: "How We Fight for Our Lives: A Memoir",
+      author: "Saeed Jones",
+      start: new Date(2019, 10, 24),
+      end: new Date(2019, 10, 24),
+      genre: "Nonfiction"
+    },
+    {
+      title: "In the Dream House: A Memoir",
+      author: "Carmen Maria Machado",
+      start: new Date(2019, 10, 25),
+      end: new Date(2019, 10, 26),
+      genre: "Nonfiction"
+    },
+    {
+      title: "Persephone",
+      author: "Loïc Locatelli-Kournwsky",
+      start: new Date(2019, 10, 27),
+      end: new Date(2019, 11, 18),
+      genre: "Comic"
+    },
+    {
+      title: "A History of the Bible",
+      author: "John Barton",
+      start: new Date(2019, 10, 27),
+      end: new Date(2019, 11, 24),
+      genre: "Nonfiction"
+    },
+    {
+      title: "The Wildstorm, Vol. 4",
+      author: "Warren Ellis and Jon Davis-Hunt",
+      start: new Date(2019, 10, 28),
+      end: new Date(2019, 11, 1),
+      genre: "Comic"
+    },
+    {
+      title: "The New Me",
+      author: "Halle Butler",
+      start: new Date(2019, 10, 28),
+      end: new Date(2019, 10, 28),
+      genre: "Fiction"
+    },
+    {
+      title: "Inland",
+      author: "Téa Obreht",
+      start: new Date(2019, 10, 29),
+      end: new Date(2019, 11, 3),
+      genre: "Fiction"
+    },
+    {
+      title: "The Travelers",
+      author: "Regina Porter",
+      start: new Date(2019, 11, 6),
+      end: new Date(2019, 11, 15),
+      genre: "Fiction"
+    },
+    {
+      title: "Curious Toys",
+      author: "Elizabeth Hand",
+      start: new Date(2019, 11, 16),
+      end: new Date(2019, 11, 20),
+      genre: "Fiction"
+    },
+    {
+      title: "Dune",
+      author: "Frank Herbert",
+      start: new Date(2019, 11, 24),
+      end: new Date(2019, 11, 27),
+      genre: "Fiction"
+    },
+    {
+      title: "Three Women",
+      author: "Lisa Taddeo",
+      start: new Date(2019, 11, 29),
+      end: new Date(2019, 11, 29),
+      genre: "Nonfiction"
+    },
+    {
       title: "Trick Mirror",
       author: "Jia Tolentino",
       start: new Date(2019, 11, 30),
@@ -653,8 +891,8 @@ const frameProps = {
       genre: "Nonfiction"
     }
   ],
-  size: [1600, 1000],
-  margin: { left: 200, top: 40, bottom: 50, right: 20 },
+  size: [1400, 1200],
+  margin: { left: 400, top: 100, bottom: 50, right: 20 },
   type: "timeline",
   projection: "horizontal",
   oPadding: 2,
@@ -666,18 +904,18 @@ const frameProps = {
     fill: theme[colors[d.genre] || 0],
     stroke: theme[(colors[d.genre] || 0) + 5]
   }),
-  title: "Reading Log 2020",
+  title: "Reading Log 2019",
   foregroundGraphics: Object.keys(colors)
     .concat(["Other"])
     .map((d, i) => (
-      <text key={d} x={700} y={i * 20 + 60}>
+      <text key={d} x={40} y={i * 20 + 30}>
         <tspan fontSize="20" fill={theme[colors[d] || 0]}>
           ●
         </tspan>{" "}
         {d}
       </text>
     )),
-  axes: [{ orient: "bottom", ticks: 12, tickFormat: timescaleFormat }],
+  axes: [{ orient: "top", ticks: 12, tickFormat: timescaleFormat }],
   oLabel: d => (
     <text textAnchor="end" fontSize="11">
       {d}
