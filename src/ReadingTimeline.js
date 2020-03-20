@@ -6,7 +6,7 @@ import { timeFormat } from "d3-time-format";
 var timescaleFormat = timeFormat("%b %e");
 const timescale = scaleTime().domain([
   new Date(2019, 0, 1),
-  new Date(2019, 11, 31)
+  new Date(2020, 11, 31)
 ]);
 
 const colors = {
@@ -134,6 +134,13 @@ const frameProps = {
       genre: "Fiction"
     },
     {
+      title: "Black Panther: A Nation Under our Feet, Book Two",
+      author: "Ta-Nehisi Coates",
+      start: new Date(2019, 1, 26),
+      end: new Date(2019, 2, 15),
+      genre: "Comic"
+    },
+    {
       title: "Americanah",
       author: "Chimamanda Ngozi Adichie",
       start: new Date(2019, 2, 1),
@@ -146,13 +153,6 @@ const frameProps = {
       start: new Date(2019, 2, 8),
       end: new Date(2019, 2, 15),
       genre: "Fiction"
-    },
-    {
-      title: "Black Panther: A Nation Under our Feet, Book Two",
-      author: "Ta-Nehisi Coates",
-      start: new Date(2019, 1, 26),
-      end: new Date(2019, 2, 15),
-      genre: "Comic"
     },
     {
       title: "Black Panther: A Nation Under our Feet, Book Three",
@@ -604,18 +604,18 @@ const frameProps = {
       genre: "Comic"
     },
     {
-      title: "On Earth We’re Briefly Gorgeous",
-      author: "Ocean Vuong",
-      start: new Date(2019, 8, 4),
-      end: new Date(2019, 8, 8),
-      genre: "Fiction"
-    },
-    {
       title: "Prism Stalker Vol. 1",
       author: "Sloane Leong",
       start: new Date(2019, 8, 2),
       end: new Date(2019, 8, 7),
       genre: "Comic"
+    },
+    {
+      title: "On Earth We’re Briefly Gorgeous",
+      author: "Ocean Vuong",
+      start: new Date(2019, 8, 4),
+      end: new Date(2019, 8, 8),
+      genre: "Fiction"
     },
     {
       title: "The Dearly Beloved",
@@ -891,7 +891,7 @@ const frameProps = {
       genre: "Nonfiction"
     }
   ],
-  size: [1400, 1200],
+  size: [1400, 1600],
   margin: { left: 400, top: 100, bottom: 50, right: 20 },
   type: "timeline",
   projection: "horizontal",
@@ -906,7 +906,7 @@ const frameProps = {
   }),
   title: "Reading Log 2019",
   foregroundGraphics: Object.keys(colors)
-    .concat(["Other"])
+    // .concat(["Other"])
     .map((d, i) => (
       <text key={d} x={40} y={i * 20 + 30}>
         <tspan fontSize="20" fill={theme[colors[d] || 0]}>
