@@ -31,863 +31,986 @@ const frameProps = {
     {
       title: "China Rich Girlfriend",
       author: "Kevin Kwan",
-      start: new Date(2019, 0, 2),
-      end: new Date(2019, 0, 8),
+      start_date: new Date(2019, 0, 2),
+      end_date: new Date(2019, 0, 8),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Good and Mad",
       author: "Rebecca Traister",
-      start: new Date(2019, 0, 2),
-      end: new Date(2019, 0, 10),
+      start_date: new Date(2019, 0, 2),
+      end_date: new Date(2019, 0, 10),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Nonfiction"
     },
     {
       title: "The Long Way to a Small, Angry Planet",
       author: "Becky Chambers",
-      start: new Date(2019, 0, 10),
-      end: new Date(2019, 0, 19),
+      start_date: new Date(2019, 0, 10),
+      end_date: new Date(2019, 0, 19),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "The Friend",
       author: "Sigrid Nunez",
-      start: new Date(2019, 0, 12),
-      end: new Date(2019, 0, 13),
+      start_date: new Date(2019, 0, 12),
+      end_date: new Date(2019, 0, 13),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "His Dark Materials: The Golden Compass",
       author: "Philip Pullman",
-      start: new Date(2019, 0, 14),
-      end: new Date(2019, 4, 12),
+      start_date: new Date(2019, 0, 14),
+      end_date: new Date(2019, 4, 12),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Check, Please! (Book #1: #Hockey)",
       author: "Ngozi Ukazu",
-      start: new Date(2019, 0, 19),
-      end: new Date(2019, 1, 19),
+      start_date: new Date(2019, 0, 19),
+      end_date: new Date(2019, 1, 19),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "Flights",
       author: "Olga Tokarczuk",
-      start: new Date(2019, 0, 19),
-      end: new Date(2019, 1, 10),
+      start_date: new Date(2019, 0, 19),
+      end_date: new Date(2019, 1, 10),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Washington Black",
       author: "Esi Edugyan",
-      start: new Date(2019, 0, 22),
-      end: new Date(2019, 1, 1),
+      start_date: new Date(2019, 0, 22),
+      end_date: new Date(2019, 1, 1),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "The Essex Serpent",
       author: "Sarah Perry",
-      start: new Date(2019, 0, 26),
-      end: new Date(2019, 1, 7),
+      start_date: new Date(2019, 0, 26),
+      end_date: new Date(2019, 1, 7),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "The New Jim Crow",
       author: "Michelle Alexander",
-      start: new Date(2019, 1, 4),
-      end: new Date(2019, 2, 12),
+      start_date: new Date(2019, 1, 4),
+      end_date: new Date(2019, 2, 12),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Nonfiction"
     },
     {
       title: "Upgrade Soul",
       author: "Ezra Clattan Daniels",
-      start: new Date(2019, 1, 9),
-      end: new Date(2019, 1, 9),
+      start_date: new Date(2019, 1, 9, 1, 0),
+      end_date: new Date(2019, 1, 9, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "Melmoth",
       author: "Sarah Perry",
-      start: new Date(2019, 1, 10),
-      end: new Date(2019, 1, 17),
+      start_date: new Date(2019, 1, 10),
+      end_date: new Date(2019, 1, 17),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Today Will Be Different",
       author: "Maria Semple",
-      start: new Date(2019, 1, 21),
-      end: new Date(2019, 1, 22),
+      start_date: new Date(2019, 1, 21),
+      end_date: new Date(2019, 1, 22),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "The Mere Wife",
       author: "Maria Dahvana Headley",
-      start: new Date(2019, 1, 23),
-      end: new Date(2019, 1, 24),
+      start_date: new Date(2019, 1, 23),
+      end_date: new Date(2019, 1, 24),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Eleanor Oliphant is completely fine",
       author: "Gail Honeyman",
-      start: new Date(2019, 1, 24),
-      end: new Date(2019, 1, 28),
+      start_date: new Date(2019, 1, 24),
+      end_date: new Date(2019, 1, 28),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Black Panther: A Nation Under our Feet, Book Two",
       author: "Ta-Nehisi Coates",
-      start: new Date(2019, 1, 26),
-      end: new Date(2019, 2, 15),
+      start_date: new Date(2019, 1, 26),
+      end_date: new Date(2019, 2, 15),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "Americanah",
       author: "Chimamanda Ngozi Adichie",
-      start: new Date(2019, 2, 1),
-      end: new Date(2019, 2, 8),
+      start_date: new Date(2019, 2, 1),
+      end_date: new Date(2019, 2, 8),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "The Power",
       author: "Naomi Alderman",
-      start: new Date(2019, 2, 8),
-      end: new Date(2019, 2, 15),
+      start_date: new Date(2019, 2, 8),
+      end_date: new Date(2019, 2, 15),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Black Panther: A Nation Under our Feet, Book Three",
       author: "Ta-Nehisi Coates",
-      start: new Date(2019, 2, 15),
-      end: new Date(2019, 2, 16),
+      start_date: new Date(2019, 2, 15),
+      end_date: new Date(2019, 2, 16),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "The Cross and The Lynching Tree",
       author: "James Cone",
-      start: new Date(2019, 2, 15),
-      end: new Date(2019, 2, 26),
+      start_date: new Date(2019, 2, 15),
+      end_date: new Date(2019, 2, 26),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Nonfiction"
     },
     {
       title: "A Tale for the Time Being",
       author: "Ruth Ozeki",
-      start: new Date(2019, 2, 16),
-      end: new Date(2019, 2, 24),
+      start_date: new Date(2019, 2, 16),
+      end_date: new Date(2019, 2, 24),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Everything You Never Told Me",
       author: "Celeste Ng",
-      start: new Date(2019, 2, 18),
-      end: new Date(2019, 2, 21),
+      start_date: new Date(2019, 2, 18),
+      end_date: new Date(2019, 2, 21),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "The Wildstorm, Vol. 3",
       author: "Warren Ellis and Jon Davis-Hunt",
-      start: new Date(2019, 2, 23),
-      end: new Date(2019, 2, 24),
+      start_date: new Date(2019, 2, 23),
+      end_date: new Date(2019, 2, 24),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "Mr. Fox",
       author: "Helen Oyeyemi",
-      start: new Date(2019, 2, 29),
-      end: new Date(2019, 3, 15),
+      start_date: new Date(2019, 2, 29),
+      end_date: new Date(2019, 3, 15),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title:
         "Parenting Forward: How to Raise Children with Justin, Mercy, and Kindness",
       author: "Cindy Wang Brandt",
-      start: new Date(2019, 2, 30),
-      end: new Date(2019, 3, 1),
+      start_date: new Date(2019, 2, 30),
+      end_date: new Date(2019, 3, 1),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Nonfiction"
     },
     {
       title: "The Library Book",
       author: "Susan Orlean",
-      start: new Date(2019, 3, 2),
-      end: new Date(2019, 3, 8),
+      start_date: new Date(2019, 3, 2),
+      end_date: new Date(2019, 3, 8),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Nonfiction"
     },
     {
       title: "Bowlaway",
       author: "Elizabeth McCracken",
-      start: new Date(2019, 3, 9),
-      end: new Date(2019, 3, 24),
+      start_date: new Date(2019, 3, 9),
+      end_date: new Date(2019, 3, 24),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Immigrant, Montana",
       author: "Amitava Kumar",
-      start: new Date(2019, 3, 9),
-      end: new Date(2019, 3, 16),
+      start_date: new Date(2019, 3, 9),
+      end_date: new Date(2019, 3, 16),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "My Heroes Have Always Been Junkies",
       author: "Ed Brubaker and Sean Phillips",
-      start: new Date(2019, 3, 17),
-      end: new Date(2019, 4, 3),
+      start_date: new Date(2019, 3, 17),
+      end_date: new Date(2019, 4, 3),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "The Anatomy of Dreams",
       author: "Chloe Benjamin",
-      start: new Date(2019, 3, 26),
-      end: new Date(2019, 3, 28),
+      start_date: new Date(2019, 3, 26),
+      end_date: new Date(2019, 3, 28),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Infinite Detail",
       author: "Tim Maughan",
-      start: new Date(2019, 3, 29),
-      end: new Date(2019, 4, 2),
+      start_date: new Date(2019, 3, 29),
+      end_date: new Date(2019, 4, 2),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "The Old Drift",
       author: "Namwali Serpell",
-      start: new Date(2019, 4, 2),
-      end: new Date(2019, 4, 26),
+      start_date: new Date(2019, 4, 2),
+      end_date: new Date(2019, 4, 26),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Where’d You Go, Bernadette?",
       author: "Maria Semple",
-      start: new Date(2019, 4, 6),
-      end: new Date(2019, 4, 15),
+      start_date: new Date(2019, 4, 6),
+      end_date: new Date(2019, 4, 15),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "The Land of Stories: The Enchantress Returns",
       author: "Chris Colfer",
-      start: new Date(2019, 4, 12),
-      end: new Date(2019, 8, 8),
+      start_date: new Date(2019, 4, 12),
+      end_date: new Date(2019, 8, 8),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "His Dark Materials: The Subtle Knife",
       author: "Philip Pullman",
-      start: new Date(2019, 4, 13),
-      end: new Date(2019, 8, 25),
+      start_date: new Date(2019, 4, 13),
+      end_date: new Date(2019, 8, 25),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "The Remains of the Day",
       author: "Kazuo Ishiguro",
-      start: new Date(2019, 4, 15),
-      end: new Date(2019, 4, 21),
+      start_date: new Date(2019, 4, 15),
+      end_date: new Date(2019, 4, 21),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Y: The Last Man: Vol. 1",
       author: "Brian K. Vaughan and Pia Guerra",
-      start: new Date(2019, 4, 18),
-      end: new Date(2019, 4, 19),
+      start_date: new Date(2019, 4, 18),
+      end_date: new Date(2019, 4, 19),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "Y: The Last Man: Vol. 2",
       author: "Brian K. Vaughan and Pia Guerra",
-      start: new Date(2019, 4, 19),
-      end: new Date(2019, 4, 19),
+      start_date: new Date(2019, 4, 19, 1, 0),
+      end_date: new Date(2019, 4, 19, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "Y: The Last Man: Vol. 3",
       author: "Brian K. Vaughan and Pia Guerra",
-      start: new Date(2019, 4, 19),
-      end: new Date(2019, 4, 19),
+      start_date: new Date(2019, 4, 19, 1, 0),
+      end_date: new Date(2019, 4, 19, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "Rich People Problems",
       author: "Kevin Kwan",
-      start: new Date(2019, 4, 21),
-      end: new Date(2019, 4, 22),
+      start_date: new Date(2019, 4, 21),
+      end_date: new Date(2019, 4, 22),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "The Witch Elm",
       author: "Tana French",
-      start: new Date(2019, 4, 24),
-      end: new Date(2019, 4, 29),
+      start_date: new Date(2019, 4, 24),
+      end_date: new Date(2019, 4, 29),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Euphoria",
       author: "Lily King",
-      start: new Date(2019, 4, 31),
-      end: new Date(2019, 5, 1),
+      start_date: new Date(2019, 4, 31),
+      end_date: new Date(2019, 5, 1),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Y: The Last Man: Vol. 4",
       author: "Brian K. Vaughan and Pia Guerra",
-      start: new Date(2019, 5, 4),
-      end: new Date(2019, 5, 4),
+      start_date: new Date(2019, 5, 4, 1, 0),
+      end_date: new Date(2019, 5, 4, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "Y: The Last Man: Vol. 5",
       author: "Brian K. Vaughan and Pia Guerra",
-      start: new Date(2019, 5, 4),
-      end: new Date(2019, 5, 4),
+      start_date: new Date(2019, 5, 4, 1, 0),
+      end_date: new Date(2019, 5, 4, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "Thick",
       author: "Tressie McMillan Cottom",
-      start: new Date(2019, 5, 5),
-      end: new Date(2019, 5, 10),
+      start_date: new Date(2019, 5, 5),
+      end_date: new Date(2019, 5, 10),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Nonfiction"
     },
     {
       title: "Daisy Jones & The Six",
       author: "Taylor Jenkins Reid",
-      start: new Date(2019, 5, 11),
-      end: new Date(2019, 5, 12),
+      start_date: new Date(2019, 5, 11),
+      end_date: new Date(2019, 5, 12),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Resilient Management",
       author: "Lara Hogan",
-      start: new Date(2019, 5, 13),
-      end: new Date(2019, 5, 21),
+      start_date: new Date(2019, 5, 13),
+      end_date: new Date(2019, 5, 21),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Nonfiction"
     },
     {
       title: "Y: The Last Man: Vol. 6",
       author: "Brian K. Vaughan and Pia Guerra",
-      start: new Date(2019, 5, 13),
-      end: new Date(2019, 5, 13),
+      start_date: new Date(2019, 5, 13, 1, 0),
+      end_date: new Date(2019, 5, 13, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "Packinko",
       author: "Min Jin Lee",
-      start: new Date(2019, 5, 15),
-      end: new Date(2019, 5, 18),
+      start_date: new Date(2019, 5, 15),
+      end_date: new Date(2019, 5, 18),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Trust Exercise",
       author: "Susan Choi",
-      start: new Date(2019, 5, 21),
-      end: new Date(2019, 5, 22),
+      start_date: new Date(2019, 5, 21),
+      end_date: new Date(2019, 5, 22),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Lost and Wanted",
       author: "Nell Freudenberger",
-      start: new Date(2019, 5, 22),
-      end: new Date(2019, 5, 25),
+      start_date: new Date(2019, 5, 22),
+      end_date: new Date(2019, 5, 25),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Empress of Forever",
       author: "Max Gladstone",
-      start: new Date(2019, 5, 25),
-      end: new Date(2019, 6, 5),
+      start_date: new Date(2019, 5, 25),
+      end_date: new Date(2019, 6, 5),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Y: The Last Man: Vol. 7",
       author: "Brian K. Vaughan and Pia Guerra",
-      start: new Date(2019, 5, 29),
-      end: new Date(2019, 5, 29),
+      start_date: new Date(2019, 5, 29, 1, 0),
+      end_date: new Date(2019, 5, 29, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "Y: The Last Man: Vol. 8",
       author: "Brian K. Vaughan and Pia Guerra",
-      start: new Date(2019, 5, 29),
-      end: new Date(2019, 5, 29),
+      start_date: new Date(2019, 5, 29, 1, 0),
+      end_date: new Date(2019, 5, 29, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "Y: The Last Man: Vol. 9",
       author: "Brian K. Vaughan and Pia Guerra",
-      start: new Date(2019, 5, 30),
-      end: new Date(2019, 5, 30),
+      start_date: new Date(2019, 5, 30, 1, 0),
+      end_date: new Date(2019, 5, 30, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "Y: The Last Man: Vol. 10",
       author: "Brian K. Vaughan and Pia Guerra",
-      start: new Date(2019, 6, 1),
-      end: new Date(2019, 6, 1),
+      start_date: new Date(2019, 6, 1, 1, 0),
+      end_date: new Date(2019, 6, 1, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "Normal People",
       author: "Sally Rooney",
-      start: new Date(2019, 6, 2),
-      end: new Date(2019, 6, 3),
+      start_date: new Date(2019, 6, 2),
+      end_date: new Date(2019, 6, 3),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "In the Woods",
       author: "Tana French",
-      start: new Date(2019, 6, 3),
-      end: new Date(2019, 6, 4),
+      start_date: new Date(2019, 6, 3),
+      end_date: new Date(2019, 6, 4),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "The Victorian Internet",
       author: "Tom Standage",
-      start: new Date(2019, 6, 5),
-      end: new Date(2019, 6, 8),
+      start_date: new Date(2019, 6, 5),
+      end_date: new Date(2019, 6, 8),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Nonfiction"
     },
     {
       title: "American Spy",
       author: "Lauren Wilkinson",
-      start: new Date(2019, 6, 9),
-      end: new Date(2019, 6, 11),
+      start_date: new Date(2019, 6, 9),
+      end_date: new Date(2019, 6, 11),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Severance",
       author: "Ling Ma",
-      start: new Date(2019, 6, 11),
-      end: new Date(2019, 6, 13),
+      start_date: new Date(2019, 6, 11),
+      end_date: new Date(2019, 6, 13),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "The Parisian",
       author: "Isabella Hammad",
-      start: new Date(2019, 6, 11),
-      end: new Date(2019, 6, 16),
+      start_date: new Date(2019, 6, 11),
+      end_date: new Date(2019, 6, 16),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Paper Girls: Vol. 3",
       author: "Brian K. Vaughan and Cliff Chiang",
-      start: new Date(2019, 6, 16),
-      end: new Date(2019, 6, 17),
+      start_date: new Date(2019, 6, 16),
+      end_date: new Date(2019, 6, 17),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "The Other Americans",
       author: "Laila Lalami",
-      start: new Date(2019, 6, 19),
-      end: new Date(2019, 6, 22),
+      start_date: new Date(2019, 6, 19),
+      end_date: new Date(2019, 6, 22),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Paper Girls: Vol. 4",
       author: "Brian K. Vaughan and Cliff Chiang",
-      start: new Date(2019, 6, 20),
-      end: new Date(2019, 6, 20),
+      start_date: new Date(2019, 6, 20, 1, 0),
+      end_date: new Date(2019, 6, 20, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "Paper Girls: Vol. 5",
       author: "Brian K. Vaughan and Cliff Chiang",
-      start: new Date(2019, 6, 21),
-      end: new Date(2019, 6, 21),
+      start_date: new Date(2019, 6, 21, 1, 0),
+      end_date: new Date(2019, 6, 21, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "The Porpoise",
       author: "Mark Haddon",
-      start: new Date(2019, 6, 23),
-      end: new Date(2019, 6, 28),
+      start_date: new Date(2019, 6, 23),
+      end_date: new Date(2019, 6, 28),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Standard Deviation",
       author: "Katherine Heiny",
-      start: new Date(2019, 6, 26),
-      end: new Date(2019, 6, 27),
+      start_date: new Date(2019, 6, 26),
+      end_date: new Date(2019, 6, 27),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Conversations with Friends",
       author: "Sally Rooney",
-      start: new Date(2019, 6, 27),
-      end: new Date(2019, 6, 29),
+      start_date: new Date(2019, 6, 27),
+      end_date: new Date(2019, 6, 29),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Divided We Fail",
       author: "Sarah Garland",
-      start: new Date(2019, 6, 29),
-      end: new Date(2019, 8, 11),
+      start_date: new Date(2019, 6, 29),
+      end_date: new Date(2019, 8, 11),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Nonfiction"
     },
     {
       title: "Beautiful Ruin",
       author: "Jess Walter",
-      start: new Date(2019, 6, 30),
-      end: new Date(2019, 7, 2),
+      start_date: new Date(2019, 6, 30),
+      end_date: new Date(2019, 7, 2),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "A Brief History of Seven Killings",
       author: "Marlon James",
-      start: new Date(2019, 7, 2),
-      end: new Date(2019, 7, 9),
+      start_date: new Date(2019, 7, 2),
+      end_date: new Date(2019, 7, 9),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "I Like to Watch",
       author: "Emily Nussbaum",
-      start: new Date(2019, 7, 10),
-      end: new Date(2019, 7, 12),
+      start_date: new Date(2019, 7, 10),
+      end_date: new Date(2019, 7, 12),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Nonfiction"
     },
     {
       title: "The Paragon Hotel",
       author: "Lyndsey Faye",
-      start: new Date(2019, 7, 14),
-      end: new Date(2019, 7, 18),
+      start_date: new Date(2019, 7, 14),
+      end_date: new Date(2019, 7, 18),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Big Sky",
       author: "Kate Atkinson",
-      start: new Date(2019, 7, 19),
-      end: new Date(2019, 7, 20),
+      start_date: new Date(2019, 7, 19),
+      end_date: new Date(2019, 7, 20),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Lock Every Door",
       author: "Riley Sager",
-      start: new Date(2019, 7, 21),
-      end: new Date(2019, 7, 22),
+      start_date: new Date(2019, 7, 21),
+      end_date: new Date(2019, 7, 22),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Parable of the Sower",
       author: "Octavia Butler",
-      start: new Date(2019, 7, 23),
-      end: new Date(2019, 8, 15),
+      start_date: new Date(2019, 7, 23),
+      end_date: new Date(2019, 8, 15),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Ms Marvel Vol. 5: Super Famous",
       author: "G. Willow Wilson and Takeshi Miyazawa",
-      start: new Date(2019, 7, 25),
-      end: new Date(2019, 7, 26),
+      start_date: new Date(2019, 7, 25),
+      end_date: new Date(2019, 7, 26),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "Thor Vol. 1: The Goddess of Thunder",
       author: "Jason Aaron, Russel Dauterman, and Jorge Molina",
-      start: new Date(2019, 7, 26),
-      end: new Date(2019, 7, 26),
+      start_date: new Date(2019, 7, 26, 1, 0),
+      end_date: new Date(2019, 7, 26, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "Ms Marvel Vol. 6: Civil War II",
       author: "G. Willow Wilson and Takeshi Miyazawa",
-      start: new Date(2019, 7, 31),
-      end: new Date(2019, 7, 31),
+      start_date: new Date(2019, 7, 31, 1, 0),
+      end_date: new Date(2019, 7, 31, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "The Mighty Thor Vol. 1: Thunder in Her Veins",
       author: "Jason Aaron, Russel Dauterman",
-      start: new Date(2019, 8, 1),
-      end: new Date(2019, 8, 1),
+      start_date: new Date(2019, 8, 1, 1, 0),
+      end_date: new Date(2019, 8, 1, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "Ms Marvel Vol. 7: Damage per Second",
       author: "G. Willow Wilson and Takeshi Miyazawa",
-      start: new Date(2019, 8, 2),
-      end: new Date(2019, 8, 2),
+      start_date: new Date(2019, 8, 2, 1, 0),
+      end_date: new Date(2019, 8, 2, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "Prism Stalker Vol. 1",
       author: "Sloane Leong",
-      start: new Date(2019, 8, 2),
-      end: new Date(2019, 8, 7),
+      start_date: new Date(2019, 8, 2),
+      end_date: new Date(2019, 8, 7),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "On Earth We’re Briefly Gorgeous",
       author: "Ocean Vuong",
-      start: new Date(2019, 8, 4),
-      end: new Date(2019, 8, 8),
+      start_date: new Date(2019, 8, 4),
+      end_date: new Date(2019, 8, 8),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "The Dearly Beloved",
       author: "Cara Wall",
-      start: new Date(2019, 8, 14),
-      end: new Date(2019, 8, 14),
+      start_date: new Date(2019, 8, 14, 1, 0),
+      end_date: new Date(2019, 8, 14, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "How to be an antiracist",
       author: "Ibram X. Kendi",
-      start: new Date(2019, 8, 15),
-      end: new Date(2019, 8, 25),
+      start_date: new Date(2019, 8, 15),
+      end_date: new Date(2019, 8, 25),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Nonfiction"
     },
     {
       title: "The Overstory",
       author: "Richard Powers",
-      start: new Date(2019, 8, 21),
-      end: new Date(2019, 8, 23),
+      start_date: new Date(2019, 8, 21),
+      end_date: new Date(2019, 8, 23),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Fleishman is in Trouble",
       author: "Taffy Brodesser-Akner",
-      start: new Date(2019, 8, 25),
-      end: new Date(2019, 8, 26),
+      start_date: new Date(2019, 8, 25),
+      end_date: new Date(2019, 8, 26),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Go Ahead in the Rain: Notes to A Tribe Called Quest",
       author: "Hanif Abdurraquib",
-      start: new Date(2019, 8, 27),
-      end: new Date(2019, 8, 30),
+      start_date: new Date(2019, 8, 27),
+      end_date: new Date(2019, 8, 30),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Nonfiction"
     },
     {
       title: "Disappearing Earth",
       author: "Julia Phillips",
-      start: new Date(2019, 8, 28),
-      end: new Date(2019, 8, 29),
+      start_date: new Date(2019, 8, 28),
+      end_date: new Date(2019, 8, 29),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Frankly in Love",
       author: "David Yoon",
-      start: new Date(2019, 8, 30),
-      end: new Date(2019, 9, 1),
+      start_date: new Date(2019, 8, 30),
+      end_date: new Date(2019, 9, 1),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Everyday Information Architecture",
       author: "Lisa Maria Martin",
-      start: new Date(2019, 9, 2),
-      end: new Date(2019, 9, 12),
+      start_date: new Date(2019, 9, 2),
+      end_date: new Date(2019, 9, 12),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Nonfiction"
     },
     {
       title: "We are Never Meeting in Real Life",
       author: "Samantha Irby",
-      start: new Date(2019, 9, 6),
-      end: new Date(2019, 11, 5),
+      start_date: new Date(2019, 9, 6),
+      end_date: new Date(2019, 11, 5),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Nonfiction"
     },
     {
       title: "That All Shall be Saved",
       author: "David Bentley Hart",
-      start: new Date(2019, 9, 8),
-      end: new Date(2019, 9, 11),
+      start_date: new Date(2019, 9, 8),
+      end_date: new Date(2019, 9, 11),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Nonfiction"
     },
     {
       title: "Rules for Visiting",
       author: "Jessica Francis Kane",
-      start: new Date(2019, 9, 12),
-      end: new Date(2019, 9, 13),
+      start_date: new Date(2019, 9, 12),
+      end_date: new Date(2019, 9, 13),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Horror Stories",
       author: "Liz Phair",
-      start: new Date(2019, 9, 13),
-      end: new Date(2019, 9, 15),
+      start_date: new Date(2019, 9, 13),
+      end_date: new Date(2019, 9, 15),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Nonfiction"
     },
     {
       title: "The First Rule of Punk",
       author: "Celia C. Pérez",
-      start: new Date(2019, 9, 16),
-      end: new Date(2019, 9, 17),
+      start_date: new Date(2019, 9, 16),
+      end_date: new Date(2019, 9, 17),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "The Tenth Muse",
       author: "Catherine Chung",
-      start: new Date(2019, 9, 18),
-      end: new Date(2019, 9, 20),
+      start_date: new Date(2019, 9, 18),
+      end_date: new Date(2019, 9, 20),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Survival Math",
       author: "Mitchell S. Jackson",
-      start: new Date(2019, 9, 19),
-      end: new Date(2019, 9, 31),
+      start_date: new Date(2019, 9, 19),
+      end_date: new Date(2019, 9, 31),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Nonfiction"
     },
     {
       title: "The Learning Curve",
       author: "Mandy Berman",
-      start: new Date(2019, 9, 21),
-      end: new Date(2019, 9, 23),
+      start_date: new Date(2019, 9, 21),
+      end_date: new Date(2019, 9, 23),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Red at the Bone",
       author: "Jacqueline Woodson",
-      start: new Date(2019, 10, 1),
-      end: new Date(2019, 10, 2),
+      start_date: new Date(2019, 10, 1),
+      end_date: new Date(2019, 10, 2),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "The Secrets We Kept",
       author: "Lara Prescott",
-      start: new Date(2019, 10, 2),
-      end: new Date(2019, 10, 3),
+      start_date: new Date(2019, 10, 2),
+      end_date: new Date(2019, 10, 3),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Tumbling",
       author: "Diane McKinney-Whetstone",
-      start: new Date(2019, 10, 5),
-      end: new Date(2019, 10, 13),
+      start_date: new Date(2019, 10, 5),
+      end_date: new Date(2019, 10, 13),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Batgirl Vol. 5: Art of the Crime",
       author: "Mairghread Scott and Paul Pelletier",
-      start: new Date(2019, 10, 10),
-      end: new Date(2019, 10, 10),
+      start_date: new Date(2019, 10, 10, 1, 0),
+      end_date: new Date(2019, 10, 10, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "Commonwealth",
       author: "Ann Patchett",
-      start: new Date(2019, 10, 14),
-      end: new Date(2019, 10, 17),
+      start_date: new Date(2019, 10, 14),
+      end_date: new Date(2019, 10, 17),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Dominicana",
       author: "Angie Cruz",
-      start: new Date(2019, 10, 17),
-      end: new Date(2019, 10, 21),
+      start_date: new Date(2019, 10, 17),
+      end_date: new Date(2019, 10, 21),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Paper Girls: Vol. 6",
       author: "Brian K. Vaughan and Cliff Chiang",
-      start: new Date(2019, 10, 18),
-      end: new Date(2019, 10, 18),
+      start_date: new Date(2019, 10, 18, 1, 0),
+      end_date: new Date(2019, 10, 18, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "Shameless: A Sexual Reformation",
       author: "Nadia Bolz-Weber",
-      start: new Date(2019, 10, 18),
-      end: new Date(2019, 10, 18),
+      start_date: new Date(2019, 10, 18, 1, 0),
+      end_date: new Date(2019, 10, 18, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Nonfiction"
     },
     {
       title: "The Snakes",
       author: "Sadie Jones",
-      start: new Date(2019, 10, 22),
-      end: new Date(2019, 10, 23),
+      start_date: new Date(2019, 10, 22),
+      end_date: new Date(2019, 10, 23),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Does Jesus Really Love Me?",
       author: "Jeff Chu",
-      start: new Date(2019, 10, 23),
-      end: new Date(2019, 10, 29),
+      start_date: new Date(2019, 10, 23),
+      end_date: new Date(2019, 10, 29),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Nonfiction"
     },
     {
       title: "Dept. of Speculation",
       author: "Jenny Offill",
-      start: new Date(2019, 10, 24),
-      end: new Date(2019, 10, 24),
+      start_date: new Date(2019, 10, 24, 1, 0),
+      end_date: new Date(2019, 10, 24, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "How We Fight for Our Lives: A Memoir",
       author: "Saeed Jones",
-      start: new Date(2019, 10, 24),
-      end: new Date(2019, 10, 24),
+      start_date: new Date(2019, 10, 24, 1, 0),
+      end_date: new Date(2019, 10, 24, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Nonfiction"
     },
     {
       title: "In the Dream House: A Memoir",
       author: "Carmen Maria Machado",
-      start: new Date(2019, 10, 25),
-      end: new Date(2019, 10, 26),
+      start_date: new Date(2019, 10, 25),
+      end_date: new Date(2019, 10, 26),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Nonfiction"
     },
     {
       title: "Persephone",
       author: "Loïc Locatelli-Kournwsky",
-      start: new Date(2019, 10, 27),
-      end: new Date(2019, 11, 18),
+      start_date: new Date(2019, 10, 27),
+      end_date: new Date(2019, 11, 18),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "A History of the Bible",
       author: "John Barton",
-      start: new Date(2019, 10, 27),
-      end: new Date(2019, 11, 24),
+      start_date: new Date(2019, 10, 27),
+      end_date: new Date(2019, 11, 24),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Nonfiction"
     },
     {
       title: "The Wildstorm, Vol. 4",
       author: "Warren Ellis and Jon Davis-Hunt",
-      start: new Date(2019, 10, 28),
-      end: new Date(2019, 11, 1),
+      start_date: new Date(2019, 10, 28),
+      end_date: new Date(2019, 11, 1),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Comic"
     },
     {
       title: "The New Me",
       author: "Halle Butler",
-      start: new Date(2019, 10, 28),
-      end: new Date(2019, 10, 28),
+      start_date: new Date(2019, 10, 28, 1, 0),
+      end_date: new Date(2019, 10, 28, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Inland",
       author: "Téa Obreht",
-      start: new Date(2019, 10, 29),
-      end: new Date(2019, 11, 3),
+      start_date: new Date(2019, 10, 29),
+      end_date: new Date(2019, 11, 3),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "The Travelers",
       author: "Regina Porter",
-      start: new Date(2019, 11, 6),
-      end: new Date(2019, 11, 15),
+      start_date: new Date(2019, 11, 6),
+      end_date: new Date(2019, 11, 15),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Curious Toys",
       author: "Elizabeth Hand",
-      start: new Date(2019, 11, 16),
-      end: new Date(2019, 11, 20),
+      start_date: new Date(2019, 11, 16),
+      end_date: new Date(2019, 11, 20),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Dune",
       author: "Frank Herbert",
-      start: new Date(2019, 11, 24),
-      end: new Date(2019, 11, 27),
+      start_date: new Date(2019, 11, 24),
+      end_date: new Date(2019, 11, 27),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Fiction"
     },
     {
       title: "Three Women",
       author: "Lisa Taddeo",
-      start: new Date(2019, 11, 29),
-      end: new Date(2019, 11, 29),
+      start_date: new Date(2019, 11, 29, 1, 0),
+      end_date: new Date(2019, 11, 29, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Nonfiction"
     },
     {
       title: "Trick Mirror",
       author: "Jia Tolentino",
-      start: new Date(2019, 11, 30),
-      end: new Date(2019, 11, 31),
+      start_date: new Date(2019, 11, 31, 1, 0),
+      end_date: new Date(2019, 11, 31, 23, 0),
+      cover_image: "book-nk-jemisin-black-future-month.jpg",
       genre: "Nonfiction"
     }
   ],
@@ -898,7 +1021,7 @@ const frameProps = {
   oPadding: 2,
   oAccessor: "title",
   rAccessor: function(e) {
-    return [e.start, e.end];
+    return [e.start_date, e.end_date];
   },
   style: d => ({
     fill: theme[colors[d.genre] || 0],
@@ -921,7 +1044,26 @@ const frameProps = {
       {d}
     </text>
   ),
-  rScaleType: timescale
+  rScaleType: timescale,
+  hoverAnnotation: true,
+  pieceHoverAnnotation: true,
+  tooltipContent: d => (
+    <div className="tooltip-content">
+      <div className="tooltip-book-image">
+        <img
+          src={require(`./img/${d.cover_image}`)}
+          alt="Cover for {d.title}"
+        ></img>
+      </div>
+      <div className="tooltip-book-meta">
+        <h2>{d.title}</h2>
+        <p>by {d.author}</p>
+        <p>Started: {d.start_date.toLocaleDateString("en-US")}</p>
+        <p>Finished: {d.end_date.toLocaleDateString("en-US")}</p>
+        <p></p>
+      </div>
+    </div>
+  )
 };
 
 class ReadingTimeline extends React.Component {

@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+/* Tooltips */
+.tooltip-content {
+  background: white;
+  position: relative;
+  border: 1px solid #ddd;
+  color: black;
+  padding: 10px;
+  z-index: 100;
+  transform: translateX(100%) translateY(5px);
+  min-width: 120px;
+  max-width: 400px;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  text-align: left;
+}
+
+.tooltip-book-meta {
+}
+
+.tooltip-book-meta h2 {
+  margin: 0;
+}
+
+.tooltip-book-meta p {
+  line-height: 1em;
+  margin: 0.5em 0;
+}
+
+.tooltip-book-image {
+}
+
+.tooltip-book-image img {
+  max-width: 5em;
+}
