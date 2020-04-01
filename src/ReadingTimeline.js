@@ -1045,8 +1045,8 @@ const frameProps = {
     </text>
   ),
   rScaleType: timescale,
-  hoverAnnotation: true,
   pieceHoverAnnotation: true,
+  hoverAnnotation: true,
   tooltipContent: d => (
     <div className="tooltip-content">
       <div className="tooltip-book-image">
