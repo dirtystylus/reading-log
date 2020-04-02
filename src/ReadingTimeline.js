@@ -6,7 +6,7 @@ import { timeFormat } from "d3-time-format";
 var timescaleFormat = timeFormat("%b %e");
 const timescale = scaleTime().domain([
   new Date(2019, 0, 1),
-  new Date(2020, 11, 31)
+  new Date(2020, 0, 1)
 ]);
 
 const colors = {
@@ -1009,7 +1009,7 @@ const frameProps = {
       title: "Trick Mirror",
       author: "Jia Tolentino",
       start_date: new Date(2019, 11, 31, 1, 0),
-      end_date: new Date(2019, 11, 31, 23, 0),
+      end_date: new Date(2020, 0, 1),
       cover_image: "trick-mirror.jpg",
       genre: "Nonfiction"
     }
