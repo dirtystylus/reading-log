@@ -1137,7 +1137,7 @@ const frameProps = {
       end_date: "2020/1/1"
     }
   ],
-  size: [1200, 1600],
+  size: [1200, 2000],
   margin: { left: 300, top: 100, bottom: 80, right: 20 },
   type: "timeline",
   projection: "horizontal",
