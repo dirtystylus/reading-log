@@ -71,3 +71,17 @@
 .tooltip-book-image img {
   max-width: 5em;
 }
+
+.axis path {
+  stroke: lightgrey;
+  fill: lightgrey;
+}
+
+.axis .baseline {
+  stroke: lightgrey;
+  fill: lightgrey;
+}
+
+.axis-baseline {
+  stroke: lightgrey;
+}
