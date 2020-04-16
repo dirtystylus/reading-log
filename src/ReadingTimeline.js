@@ -6,13 +6,13 @@ import { timeFormat } from "d3-time-format";
 var timescaleFormat = timeFormat("%b %e");
 const timescale = scaleTime().domain([
   new Date(2019, 0, 1),
-  new Date(2020, 0, 1)
+  new Date(2020, 0, 1),
 ]);
 
 const colors = {
   Fiction: 4,
   Nonfiction: 1,
-  Comic: 2
+  Comic: 2,
 };
 const theme = [
   "#ac58e5",
@@ -24,7 +24,7 @@ const theme = [
   "#7a255d",
   "#365350",
   "#a19a11",
-  "#3f4482"
+  "#3f4482",
 ];
 const frameProps = {
   data: [
@@ -35,7 +35,7 @@ const frameProps = {
       cover_image: "china-rich-girlfriend.jpg",
       genre: "Fiction",
       start_date: "2019/1/2",
-      end_date: "2019/1/8"
+      end_date: "2019/1/8",
     },
     {
       title: "Good and Mad",
@@ -44,7 +44,7 @@ const frameProps = {
       cover_image: "good-and-mad.jpg",
       genre: "Nonfiction",
       start_date: "2019/1/2",
-      end_date: "2019/1/10"
+      end_date: "2019/1/10",
     },
     {
       title: "The Long Way to a Small, Angry Planet",
@@ -53,7 +53,7 @@ const frameProps = {
       cover_image: "the-long-way-to-a-small-angry-planet.jpg",
       genre: "Fiction",
       start_date: "2019/1/10",
-      end_date: "2019/1/19"
+      end_date: "2019/1/19",
     },
     {
       title: "The Friend",
@@ -62,7 +62,7 @@ const frameProps = {
       cover_image: "the-friend.jpg",
       genre: "Fiction",
       start_date: "2019/1/12",
-      end_date: "2019/1/13"
+      end_date: "2019/1/13",
     },
     {
       title: "His Dark Materials: The Golden Compass",
@@ -71,7 +71,7 @@ const frameProps = {
       cover_image: "his-dark-materials.jpg",
       genre: "Fiction",
       start_date: "2019/1/14",
-      end_date: "2019/5/12"
+      end_date: "2019/5/12",
     },
     {
       title: "Check, Please! (Book #1: #Hockey)",
@@ -80,7 +80,7 @@ const frameProps = {
       cover_image: "check-please-book1-hockey.jpg",
       genre: "Comic",
       start_date: "2019/1/19",
-      end_date: "2019/2/19"
+      end_date: "2019/2/19",
     },
     {
       title: "Flights",
@@ -89,7 +89,7 @@ const frameProps = {
       cover_image: "flights.jpg",
       genre: "Fiction",
       start_date: "2019/1/19",
-      end_date: "2019/2/10"
+      end_date: "2019/2/10",
     },
     {
       title: "Washington Black",
@@ -98,7 +98,7 @@ const frameProps = {
       cover_image: "washington-black.jpg",
       genre: "Fiction",
       start_date: "2019/1/22",
-      end_date: "2019/2/1"
+      end_date: "2019/2/1",
     },
     {
       title: "The Essex Serpent",
@@ -107,7 +107,7 @@ const frameProps = {
       cover_image: "the-essex-serpent.jpg",
       genre: "Fiction",
       start_date: "2019/1/26",
-      end_date: "2019/2/7"
+      end_date: "2019/2/7",
     },
     {
       title: "The New Jim Crow",
@@ -116,7 +116,7 @@ const frameProps = {
       cover_image: "the-new-jim-crow.jpg",
       genre: "Nonfiction",
       start_date: "2019/2/4",
-      end_date: "2019/3/12"
+      end_date: "2019/3/12",
     },
     {
       title: "Upgrade Soul",
@@ -125,7 +125,7 @@ const frameProps = {
       cover_image: "upgrade-soul.jpg",
       genre: "Comic",
       start_date: "2019/2/9 1:00",
-      end_date: "2019/2/9 23:00"
+      end_date: "2019/2/9 23:00",
     },
     {
       title: "Melmoth",
@@ -134,7 +134,7 @@ const frameProps = {
       cover_image: "melmoth.jpg",
       genre: "Fiction",
       start_date: "2019/2/10",
-      end_date: "2019/2/17"
+      end_date: "2019/2/17",
     },
     {
       title: "Today Will Be Different",
@@ -143,7 +143,7 @@ const frameProps = {
       cover_image: "today-will-be-different.jpg",
       genre: "Fiction",
       start_date: "2019/2/21",
-      end_date: "2019/2/22"
+      end_date: "2019/2/22",
     },
     {
       title: "The Mere Wife",
@@ -152,7 +152,7 @@ const frameProps = {
       cover_image: "the-mere-wife.jpg",
       genre: "Fiction",
       start_date: "2019/2/23",
-      end_date: "2019/2/24"
+      end_date: "2019/2/24",
     },
     {
       title: "Eleanor Oliphant is completely fine",
@@ -161,7 +161,7 @@ const frameProps = {
       cover_image: "eleanor-oliphant-is-completely-fine.jpg",
       genre: "Fiction",
       start_date: "2019/2/24",
-      end_date: "2019/2/28"
+      end_date: "2019/2/28",
     },
     {
       title: "Black Panther: A Nation Under our Feet, Book Two",
@@ -170,7 +170,7 @@ const frameProps = {
       cover_image: "black-panther-a-nation-under-our-feet-book2.jpg",
       genre: "Comic",
       start_date: "2019/2/26",
-      end_date: "2019/3/15"
+      end_date: "2019/3/15",
     },
     {
       title: "Americanah",
@@ -179,7 +179,7 @@ const frameProps = {
       cover_image: "americanah.jpg",
       genre: "Fiction",
       start_date: "2019/3/1",
-      end_date: "2019/3/8"
+      end_date: "2019/3/8",
     },
     {
       title: "The Power",
@@ -188,7 +188,7 @@ const frameProps = {
       cover_image: "the-power.jpg",
       genre: "Fiction",
       start_date: "2019/3/8",
-      end_date: "2019/3/15"
+      end_date: "2019/3/15",
     },
     {
       title: "Black Panther: A Nation Under our Feet, Book Three",
@@ -197,7 +197,7 @@ const frameProps = {
       cover_image: "black-panther-a-nation-under-our-feet-book3.jpg",
       genre: "Comic",
       start_date: "2019/3/15",
-      end_date: "2019/3/16"
+      end_date: "2019/3/16",
     },
     {
       title: "The Cross and The Lynching Tree",
@@ -206,7 +206,7 @@ const frameProps = {
       cover_image: "the-cross-and-the-lynching-tree.jpg",
       genre: "Nonfiction",
       start_date: "2019/3/15",
-      end_date: "2019/3/26"
+      end_date: "2019/3/26",
     },
     {
       title: "A Tale for the Time Being",
@@ -215,7 +215,7 @@ const frameProps = {
       cover_image: "a-tale-for-the-time-being.jpg",
       genre: "Fiction",
       start_date: "2019/3/16",
-      end_date: "2019/3/24"
+      end_date: "2019/3/24",
     },
     {
       title: "Everything I Never Told You",
@@ -224,7 +224,7 @@ const frameProps = {
       cover_image: "everything-i-never-told-you.jpg",
       genre: "Fiction",
       start_date: "2019/3/18",
-      end_date: "2019/3/21"
+      end_date: "2019/3/21",
     },
     {
       title: "The Wildstorm, Vol. 3",
@@ -233,7 +233,7 @@ const frameProps = {
       cover_image: "the-wildstorm-vol3.jpg",
       genre: "Comic",
       start_date: "2019/3/23",
-      end_date: "2019/3/24"
+      end_date: "2019/3/24",
     },
     {
       title: "Mr. Fox",
@@ -242,7 +242,7 @@ const frameProps = {
       cover_image: "mr-fox.jpg",
       genre: "Fiction",
       start_date: "2019/3/29",
-      end_date: "2019/4/15"
+      end_date: "2019/4/15",
     },
     {
       title:
@@ -252,7 +252,7 @@ const frameProps = {
       cover_image: "parenting-forward.jpg",
       genre: "Nonfiction",
       start_date: "2019/3/30",
-      end_date: "2019/4/1"
+      end_date: "2019/4/1",
     },
     {
       title: "The Library Book",
@@ -261,7 +261,7 @@ const frameProps = {
       cover_image: "the-library-book.jpg",
       genre: "Nonfiction",
       start_date: "2019/4/2",
-      end_date: "2019/4/8"
+      end_date: "2019/4/8",
     },
     {
       title: "Bowlaway",
@@ -270,7 +270,7 @@ const frameProps = {
       cover_image: "bowlaway.jpg",
       genre: "Fiction",
       start_date: "2019/4/9",
-      end_date: "2019/4/24"
+      end_date: "2019/4/24",
     },
     {
       title: "Immigrant, Montana",
@@ -279,7 +279,7 @@ const frameProps = {
       cover_image: "immigrant-montana.jpg",
       genre: "Fiction",
       start_date: "2019/4/9",
-      end_date: "2019/4/16"
+      end_date: "2019/4/16",
     },
     {
       title: "My Heroes Have Always Been Junkies",
@@ -288,7 +288,7 @@ const frameProps = {
       cover_image: "my-heroes-have-always-been-junkies.jpg",
       genre: "Comic",
       start_date: "2019/4/17",
-      end_date: "2019/5/3"
+      end_date: "2019/5/3",
     },
     {
       title: "The Anatomy of Dreams",
@@ -297,7 +297,7 @@ const frameProps = {
       cover_image: "the-anatomy-of-dreams.jpg",
       genre: "Fiction",
       start_date: "2019/4/26",
-      end_date: "2019/4/28"
+      end_date: "2019/4/28",
     },
     {
       title: "Infinite Detail",
@@ -306,7 +306,7 @@ const frameProps = {
       cover_image: "infinite-detail.jpg",
       genre: "Fiction",
       start_date: "2019/4/29",
-      end_date: "2019/5/2"
+      end_date: "2019/5/2",
     },
     {
       title: "The Old Drift",
@@ -315,7 +315,7 @@ const frameProps = {
       cover_image: "the-old-drift.jpg",
       genre: "Fiction",
       start_date: "2019/5/2",
-      end_date: "2019/5/26"
+      end_date: "2019/5/26",
     },
     {
       title: "Where’d You Go, Bernadette?",
@@ -324,7 +324,7 @@ const frameProps = {
       cover_image: "whered-you-go-bernadette.jpg",
       genre: "Fiction",
       start_date: "2019/5/6",
-      end_date: "2019/5/15"
+      end_date: "2019/5/15",
     },
     {
       title: "The Land of Stories: The Enchantress Returns",
@@ -333,7 +333,7 @@ const frameProps = {
       cover_image: "the-enchantress-returns.jpg",
       genre: "Fiction",
       start_date: "2019/5/12",
-      end_date: "2019/9/8"
+      end_date: "2019/9/8",
     },
     {
       title: "His Dark Materials: The Subtle Knife",
@@ -342,7 +342,7 @@ const frameProps = {
       cover_image: "his-dark-materials.jpg",
       genre: "Fiction",
       start_date: "2019/5/13",
-      end_date: "2019/9/25"
+      end_date: "2019/9/25",
     },
     {
       title: "The Remains of the Day",
@@ -351,7 +351,7 @@ const frameProps = {
       cover_image: "the-remains-of-the-day.jpg",
       genre: "Fiction",
       start_date: "2019/5/15",
-      end_date: "2019/5/21"
+      end_date: "2019/5/21",
     },
     {
       title: "Y: The Last Man: Vol. 1",
@@ -360,7 +360,7 @@ const frameProps = {
       cover_image: "y-the-last-man-vol1.jpg",
       genre: "Comic",
       start_date: "2019/5/18",
-      end_date: "2019/5/19"
+      end_date: "2019/5/19",
     },
     {
       title: "Y: The Last Man: Vol. 2",
@@ -369,7 +369,7 @@ const frameProps = {
       cover_image: "y-the-last-man-vol2.jpg",
       genre: "Comic",
       start_date: "2019/5/19 1:00",
-      end_date: "2019/5/19 23:00"
+      end_date: "2019/5/19 23:00",
     },
     {
       title: "Y: The Last Man: Vol. 3",
@@ -378,7 +378,7 @@ const frameProps = {
       cover_image: "y-the-last-man-vol3.jpg",
       genre: "Comic",
       start_date: "2019/5/19 1:00",
-      end_date: "2019/5/19 23:00"
+      end_date: "2019/5/19 23:00",
     },
     {
       title: "Rich People Problems",
@@ -387,7 +387,7 @@ const frameProps = {
       cover_image: "rich-people-problems.jpg",
       genre: "Fiction",
       start_date: "2019/5/21",
-      end_date: "2019/5/22"
+      end_date: "2019/5/22",
     },
     {
       title: "The Witch Elm",
@@ -396,7 +396,7 @@ const frameProps = {
       cover_image: "the-witch-elm.jpg",
       genre: "Fiction",
       start_date: "2019/5/24",
-      end_date: "2019/5/29"
+      end_date: "2019/5/29",
     },
     {
       title: "Euphoria",
@@ -405,7 +405,7 @@ const frameProps = {
       cover_image: "euphoria.jpg",
       genre: "Fiction",
       start_date: "2019/5/31",
-      end_date: "2019/6/1"
+      end_date: "2019/6/1",
     },
     {
       title: "Y: The Last Man: Vol. 4",
@@ -414,7 +414,7 @@ const frameProps = {
       cover_image: "y-the-last-man-vol4.jpg",
       genre: "Comic",
       start_date: "2019/6/4 1:00",
-      end_date: "2019/6/4 23:00"
+      end_date: "2019/6/4 23:00",
     },
     {
       title: "Y: The Last Man: Vol. 5",
@@ -423,7 +423,7 @@ const frameProps = {
       cover_image: "y-the-last-man-vol5.jpg",
       genre: "Comic",
       start_date: "2019/6/4 1:00",
-      end_date: "2019/6/4 23:00"
+      end_date: "2019/6/4 23:00",
     },
     {
       title: "Thick",
@@ -432,7 +432,7 @@ const frameProps = {
       cover_image: "thick.jpg",
       genre: "Nonfiction",
       start_date: "2019/6/5",
-      end_date: "2019/6/10"
+      end_date: "2019/6/10",
     },
     {
       title: "Daisy Jones & The Six",
@@ -441,7 +441,7 @@ const frameProps = {
       cover_image: "daisy-jones-and-the-six.jpg",
       genre: "Fiction",
       start_date: "2019/6/11",
-      end_date: "2019/6/12"
+      end_date: "2019/6/12",
     },
     {
       title: "Resilient Management",
@@ -450,7 +450,7 @@ const frameProps = {
       cover_image: "resilient-management.png",
       genre: "Nonfiction",
       start_date: "2019/6/13",
-      end_date: "2019/6/21"
+      end_date: "2019/6/21",
     },
     {
       title: "Y: The Last Man: Vol. 6",
@@ -459,7 +459,7 @@ const frameProps = {
       cover_image: "y-the-last-man-vol6.jpg",
       genre: "Comic",
       start_date: "2019/6/13 1:00",
-      end_date: "2019/6/13 23:00"
+      end_date: "2019/6/13 23:00",
     },
     {
       title: "Pachinko",
@@ -468,7 +468,7 @@ const frameProps = {
       cover_image: "pachinko.jpg",
       genre: "Fiction",
       start_date: "2019/6/15",
-      end_date: "2019/6/18"
+      end_date: "2019/6/18",
     },
     {
       title: "Trust Exercise",
@@ -477,7 +477,7 @@ const frameProps = {
       cover_image: "trust-exercise.jpg",
       genre: "Fiction",
       start_date: "2019/6/21",
-      end_date: "2019/6/22"
+      end_date: "2019/6/22",
     },
     {
       title: "Lost and Wanted",
@@ -486,7 +486,7 @@ const frameProps = {
       cover_image: "lost-and-wanted.jpg",
       genre: "Fiction",
       start_date: "2019/6/22",
-      end_date: "2019/6/25"
+      end_date: "2019/6/25",
     },
     {
       title: "Empress of Forever",
@@ -495,7 +495,7 @@ const frameProps = {
       cover_image: "empress-of-forever.jpg",
       genre: "Fiction",
       start_date: "2019/6/25",
-      end_date: "2019/7/5"
+      end_date: "2019/7/5",
     },
     {
       title: "Y: The Last Man: Vol. 7",
@@ -504,7 +504,7 @@ const frameProps = {
       cover_image: "y-the-last-man-vol7.jpg",
       genre: "Comic",
       start_date: "2019/6/29 1:00",
-      end_date: "2019/6/29 23:00"
+      end_date: "2019/6/29 23:00",
     },
     {
       title: "Y: The Last Man: Vol. 8",
@@ -513,7 +513,7 @@ const frameProps = {
       cover_image: "y-the-last-man-vol8.jpg",
       genre: "Comic",
       start_date: "2019/6/29 1:00",
-      end_date: "2019/6/29 23:00"
+      end_date: "2019/6/29 23:00",
     },
     {
       title: "Y: The Last Man: Vol. 9",
@@ -522,7 +522,7 @@ const frameProps = {
       cover_image: "y-the-last-man-vol9.jpg",
       genre: "Comic",
       start_date: "2019/6/30 1:00",
-      end_date: "2019/6/30 23:00"
+      end_date: "2019/6/30 23:00",
     },
     {
       title: "Y: The Last Man: Vol. 10",
@@ -531,7 +531,7 @@ const frameProps = {
       cover_image: "y-the-last-man-vol10.jpg",
       genre: "Comic",
       start_date: "2019/7/1 1:00",
-      end_date: "2019/7/1 23:00"
+      end_date: "2019/7/1 23:00",
     },
     {
       title: "Normal People",
@@ -540,7 +540,7 @@ const frameProps = {
       cover_image: "normal-people.jpg",
       genre: "Fiction",
       start_date: "2019/7/2",
-      end_date: "2019/7/3"
+      end_date: "2019/7/3",
     },
     {
       title: "In the Woods",
@@ -549,7 +549,7 @@ const frameProps = {
       cover_image: "in-the-woods.jpg",
       genre: "Fiction",
       start_date: "2019/7/3",
-      end_date: "2019/7/4"
+      end_date: "2019/7/4",
     },
     {
       title: "The Victorian Internet",
@@ -558,7 +558,7 @@ const frameProps = {
       cover_image: "the-victorian-internet.jpg",
       genre: "Nonfiction",
       start_date: "2019/7/5",
-      end_date: "2019/7/8"
+      end_date: "2019/7/8",
     },
     {
       title: "American Spy",
@@ -567,7 +567,7 @@ const frameProps = {
       cover_image: "american-spy.jpg",
       genre: "Fiction",
       start_date: "2019/7/9",
-      end_date: "2019/7/11"
+      end_date: "2019/7/11",
     },
     {
       title: "Severance",
@@ -576,7 +576,7 @@ const frameProps = {
       cover_image: "severance.jpg",
       genre: "Fiction",
       start_date: "2019/7/11",
-      end_date: "2019/7/13"
+      end_date: "2019/7/13",
     },
     {
       title: "The Parisian",
@@ -585,7 +585,7 @@ const frameProps = {
       cover_image: "the-parisian.jpg",
       genre: "Fiction",
       start_date: "2019/7/11",
-      end_date: "2019/7/16"
+      end_date: "2019/7/16",
     },
     {
       title: "Paper Girls: Vol. 3",
@@ -594,7 +594,7 @@ const frameProps = {
       cover_image: "paper-girls-vol3.jpg",
       genre: "Comic",
       start_date: "2019/7/16",
-      end_date: "2019/7/17"
+      end_date: "2019/7/17",
     },
     {
       title: "The Other Americans",
@@ -603,7 +603,7 @@ const frameProps = {
       cover_image: "the-other-americans.jpg",
       genre: "Fiction",
       start_date: "2019/7/19",
-      end_date: "2019/7/22"
+      end_date: "2019/7/22",
     },
     {
       title: "Paper Girls: Vol. 4",
@@ -612,7 +612,7 @@ const frameProps = {
       cover_image: "paper-girls-vol4.jpg",
       genre: "Comic",
       start_date: "2019/7/20 1:00",
-      end_date: "2019/7/20 23:00"
+      end_date: "2019/7/20 23:00",
     },
     {
       title: "Paper Girls: Vol. 5",
@@ -621,7 +621,7 @@ const frameProps = {
       cover_image: "paper-girls-vol5.jpg",
       genre: "Comic",
       start_date: "2019/7/21 1:00",
-      end_date: "2019/7/21 23:00"
+      end_date: "2019/7/21 23:00",
     },
     {
       title: "The Porpoise",
@@ -630,7 +630,7 @@ const frameProps = {
       cover_image: "the-porpoise.jpg",
       genre: "Fiction",
       start_date: "2019/7/23",
-      end_date: "2019/7/28"
+      end_date: "2019/7/28",
     },
     {
       title: "Standard Deviation",
@@ -639,7 +639,7 @@ const frameProps = {
       cover_image: "standard-deviation.jpg",
       genre: "Fiction",
       start_date: "2019/7/26",
-      end_date: "2019/7/27"
+      end_date: "2019/7/27",
     },
     {
       title: "Conversations with Friends",
@@ -648,7 +648,7 @@ const frameProps = {
       cover_image: "conversations-with-friends.jpg",
       genre: "Fiction",
       start_date: "2019/7/27",
-      end_date: "2019/7/29"
+      end_date: "2019/7/29",
     },
     {
       title: "Divided We Fail",
@@ -657,7 +657,7 @@ const frameProps = {
       cover_image: "divided-we-fail.jpg",
       genre: "Nonfiction",
       start_date: "2019/7/29",
-      end_date: "2019/9/11"
+      end_date: "2019/9/11",
     },
     {
       title: "Beautiful Ruins",
@@ -666,7 +666,7 @@ const frameProps = {
       cover_image: "beautiful-ruins.jpg",
       genre: "Fiction",
       start_date: "2019/7/30",
-      end_date: "2019/8/2"
+      end_date: "2019/8/2",
     },
     {
       title: "A Brief History of Seven Killings",
@@ -675,7 +675,7 @@ const frameProps = {
       cover_image: "a-brief-history-of-seven-killings.jpg",
       genre: "Fiction",
       start_date: "2019/8/2",
-      end_date: "2019/8/9"
+      end_date: "2019/8/9",
     },
     {
       title: "I Like to Watch",
@@ -684,7 +684,7 @@ const frameProps = {
       cover_image: "i-like-to-watch.jpg",
       genre: "Nonfiction",
       start_date: "2019/8/10",
-      end_date: "2019/8/12"
+      end_date: "2019/8/12",
     },
     {
       title: "The Paragon Hotel",
@@ -693,7 +693,7 @@ const frameProps = {
       cover_image: "the-paragon-hotel.jpg",
       genre: "Fiction",
       start_date: "2019/8/14",
-      end_date: "2019/8/18"
+      end_date: "2019/8/18",
     },
     {
       title: "Big Sky",
@@ -702,7 +702,7 @@ const frameProps = {
       cover_image: "big-sky.jpg",
       genre: "Fiction",
       start_date: "2019/8/19",
-      end_date: "2019/8/20"
+      end_date: "2019/8/20",
     },
     {
       title: "Lock Every Door",
@@ -711,7 +711,7 @@ const frameProps = {
       cover_image: "lock-every-door.jpg",
       genre: "Fiction",
       start_date: "2019/8/21",
-      end_date: "2019/8/22"
+      end_date: "2019/8/22",
     },
     {
       title: "Parable of the Sower",
@@ -720,7 +720,7 @@ const frameProps = {
       cover_image: "parable-of-the-sower.jpg",
       genre: "Fiction",
       start_date: "2019/8/23",
-      end_date: "2019/9/15"
+      end_date: "2019/9/15",
     },
     {
       title: "Ms Marvel Vol. 5: Super Famous",
@@ -729,7 +729,7 @@ const frameProps = {
       cover_image: "ms-marvel-vol5-super-famous.jpg",
       genre: "Comic",
       start_date: "2019/8/25",
-      end_date: "2019/8/26"
+      end_date: "2019/8/26",
     },
     {
       title: "Thor Vol. 1: The Goddess of Thunder",
@@ -738,7 +738,7 @@ const frameProps = {
       cover_image: "thor-vol1-the-goddess-of-thunder.jpg",
       genre: "Comic",
       start_date: "2019/8/26 1:00",
-      end_date: "2019/8/26 23:00"
+      end_date: "2019/8/26 23:00",
     },
     {
       title: "Ms Marvel Vol. 6: Civil War II",
@@ -747,7 +747,7 @@ const frameProps = {
       cover_image: "ms-marvel-vol6-civil-war-ii.jpg",
       genre: "Comic",
       start_date: "2019/8/31 1:00",
-      end_date: "2019/8/31 23:00"
+      end_date: "2019/8/31 23:00",
     },
     {
       title: "The Mighty Thor Vol. 1: Thunder in Her Veins",
@@ -756,7 +756,7 @@ const frameProps = {
       cover_image: "the-mighty-thor-vol1.jpg",
       genre: "Comic",
       start_date: "2019/9/1 1:00",
-      end_date: "2019/9/1 23:00"
+      end_date: "2019/9/1 23:00",
     },
     {
       title: "Ms Marvel Vol. 7: Damage per Second",
@@ -765,7 +765,7 @@ const frameProps = {
       cover_image: "ms-marvel-vol7.jpg",
       genre: "Comic",
       start_date: "2019/9/2 1:00",
-      end_date: "2019/9/2 23:00"
+      end_date: "2019/9/2 23:00",
     },
     {
       title: "Prism Stalker Vol. 1",
@@ -774,7 +774,7 @@ const frameProps = {
       cover_image: "prism-stalker-vol1.jpg",
       genre: "Comic",
       start_date: "2019/9/2",
-      end_date: "2019/9/7"
+      end_date: "2019/9/7",
     },
     {
       title: "On Earth We’re Briefly Gorgeous",
@@ -783,7 +783,7 @@ const frameProps = {
       cover_image: "on-earth-were-briefly-gorgeous.jpg",
       genre: "Fiction",
       start_date: "2019/9/4",
-      end_date: "2019/9/8"
+      end_date: "2019/9/8",
     },
     {
       title: "The Dearly Beloved",
@@ -792,7 +792,7 @@ const frameProps = {
       cover_image: "the-dearly-beloved.jpg",
       genre: "Fiction",
       start_date: "2019/9/14 1:00",
-      end_date: "2019/9/14 23:00"
+      end_date: "2019/9/14 23:00",
     },
     {
       title: "How to be an antiracist",
@@ -801,7 +801,7 @@ const frameProps = {
       cover_image: "how-to-be-an-antiracist.jpg",
       genre: "Nonfiction",
       start_date: "2019/9/15",
-      end_date: "2019/9/25"
+      end_date: "2019/9/25",
     },
     {
       title: "The Overstory",
@@ -810,7 +810,7 @@ const frameProps = {
       cover_image: "the-overstory.jpg",
       genre: "Fiction",
       start_date: "2019/9/21",
-      end_date: "2019/9/23"
+      end_date: "2019/9/23",
     },
     {
       title: "Fleishman is in Trouble",
@@ -819,7 +819,7 @@ const frameProps = {
       cover_image: "fleishman-is-in-trouble.jpg",
       genre: "Fiction",
       start_date: "2019/9/25",
-      end_date: "2019/9/26"
+      end_date: "2019/9/26",
     },
     {
       title: "Go Ahead in the Rain: Notes to A Tribe Called Quest",
@@ -828,7 +828,7 @@ const frameProps = {
       cover_image: "go-ahead-in-the-rain.jpg",
       genre: "Nonfiction",
       start_date: "2019/9/27",
-      end_date: "2019/9/30"
+      end_date: "2019/9/30",
     },
     {
       title: "Disappearing Earth",
@@ -837,7 +837,7 @@ const frameProps = {
       cover_image: "disappearing-earth.jpg",
       genre: "Fiction",
       start_date: "2019/9/28",
-      end_date: "2019/9/29"
+      end_date: "2019/9/29",
     },
     {
       title: "Frankly in Love",
@@ -846,7 +846,7 @@ const frameProps = {
       cover_image: "frankly-in-love.jpg",
       genre: "Fiction",
       start_date: "2019/9/30",
-      end_date: "2019/10/1"
+      end_date: "2019/10/1",
     },
     {
       title: "Everyday Information Architecture",
@@ -855,7 +855,7 @@ const frameProps = {
       cover_image: "everyday-information-architecture.png",
       genre: "Nonfiction",
       start_date: "2019/10/2",
-      end_date: "2019/10/12"
+      end_date: "2019/10/12",
     },
     {
       title: "We are Never Meeting in Real Life",
@@ -864,7 +864,7 @@ const frameProps = {
       cover_image: "we-are-never-meeting-in-real-life.jpg",
       genre: "Nonfiction",
       start_date: "2019/10/6",
-      end_date: "2019/12/5"
+      end_date: "2019/12/5",
     },
     {
       title: "That All Shall be Saved",
@@ -873,7 +873,7 @@ const frameProps = {
       cover_image: "that-all-shall-be-saved.jpg",
       genre: "Nonfiction",
       start_date: "2019/10/8",
-      end_date: "2019/10/11"
+      end_date: "2019/10/11",
     },
     {
       title: "Rules for Visiting",
@@ -882,7 +882,7 @@ const frameProps = {
       cover_image: "rules-for-visiting.jpg",
       genre: "Fiction",
       start_date: "2019/10/12",
-      end_date: "2019/10/13"
+      end_date: "2019/10/13",
     },
     {
       title: "Horror Stories",
@@ -891,7 +891,7 @@ const frameProps = {
       cover_image: "horror-stories.jpg",
       genre: "Nonfiction",
       start_date: "2019/10/13",
-      end_date: "2019/10/15"
+      end_date: "2019/10/15",
     },
     {
       title: "The First Rule of Punk",
@@ -900,7 +900,7 @@ const frameProps = {
       cover_image: "the-first-rule-of-punk.jpg",
       genre: "Fiction",
       start_date: "2019/10/16",
-      end_date: "2019/10/17"
+      end_date: "2019/10/17",
     },
     {
       title: "The Tenth Muse",
@@ -909,7 +909,7 @@ const frameProps = {
       cover_image: "the-tenth-muse.jpg",
       genre: "Fiction",
       start_date: "2019/10/18",
-      end_date: "2019/10/20"
+      end_date: "2019/10/20",
     },
     {
       title: "Survival Math",
@@ -918,7 +918,7 @@ const frameProps = {
       cover_image: "survival-math.jpg",
       genre: "Nonfiction",
       start_date: "2019/10/19",
-      end_date: "2019/10/31"
+      end_date: "2019/10/31",
     },
     {
       title: "The Learning Curve",
@@ -927,7 +927,7 @@ const frameProps = {
       cover_image: "the-learning-curve.jpg",
       genre: "Fiction",
       start_date: "2019/10/21",
-      end_date: "2019/10/23"
+      end_date: "2019/10/23",
     },
     {
       title: "Red at the Bone",
@@ -936,7 +936,7 @@ const frameProps = {
       cover_image: "red-at-the-bone.jpg",
       genre: "Fiction",
       start_date: "2019/11/1",
-      end_date: "2019/11/2"
+      end_date: "2019/11/2",
     },
     {
       title: "The Secrets We Kept",
@@ -945,7 +945,7 @@ const frameProps = {
       cover_image: "the-secrets-we-kept.jpg",
       genre: "Fiction",
       start_date: "2019/11/2",
-      end_date: "2019/11/3"
+      end_date: "2019/11/3",
     },
     {
       title: "Tumbling",
@@ -954,7 +954,7 @@ const frameProps = {
       cover_image: "tumbling.jpg",
       genre: "Fiction",
       start_date: "2019/11/5",
-      end_date: "2019/11/13"
+      end_date: "2019/11/13",
     },
     {
       title: "Batgirl Vol. 5: Art of the Crime",
@@ -963,7 +963,7 @@ const frameProps = {
       cover_image: "batgirl-vol5-art-of-the-crime.jpg",
       genre: "Comic",
       start_date: "2019/11/10 1:00",
-      end_date: "2019/11/10 23:00"
+      end_date: "2019/11/10 23:00",
     },
     {
       title: "Commonwealth",
@@ -972,7 +972,7 @@ const frameProps = {
       cover_image: "commonwealth.jpg",
       genre: "Fiction",
       start_date: "2019/11/14",
-      end_date: "2019/11/17"
+      end_date: "2019/11/17",
     },
     {
       title: "Dominicana",
@@ -981,7 +981,7 @@ const frameProps = {
       cover_image: "dominicana.jpg",
       genre: "Fiction",
       start_date: "2019/11/17",
-      end_date: "2019/11/21"
+      end_date: "2019/11/21",
     },
     {
       title: "Paper Girls: Vol. 6",
@@ -990,7 +990,7 @@ const frameProps = {
       cover_image: "paper-girls-vol6.jpg",
       genre: "Comic",
       start_date: "2019/11/18 1:00",
-      end_date: "2019/11/18 23:00"
+      end_date: "2019/11/18 23:00",
     },
     {
       title: "Shameless: A Sexual Reformation",
@@ -999,7 +999,7 @@ const frameProps = {
       cover_image: "shameless.jpg",
       genre: "Nonfiction",
       start_date: "2019/11/18 1:00",
-      end_date: "2019/11/18 23:00"
+      end_date: "2019/11/18 23:00",
     },
     {
       title: "The Snakes",
@@ -1008,7 +1008,7 @@ const frameProps = {
       cover_image: "the-snakes.jpg",
       genre: "Fiction",
       start_date: "2019/11/22",
-      end_date: "2019/11/23"
+      end_date: "2019/11/23",
     },
     {
       title: "Does Jesus Really Love Me?",
@@ -1017,7 +1017,7 @@ const frameProps = {
       cover_image: "does-jesus-really-love-me.jpg",
       genre: "Nonfiction",
       start_date: "2019/11/23",
-      end_date: "2019/11/29"
+      end_date: "2019/11/29",
     },
     {
       title: "Dept. of Speculation",
@@ -1026,7 +1026,7 @@ const frameProps = {
       cover_image: "dept-of-speculation.jpg",
       genre: "Fiction",
       start_date: "2019/11/24 1:00",
-      end_date: "2019/11/24 23:00"
+      end_date: "2019/11/24 23:00",
     },
     {
       title: "How We Fight for Our Lives: A Memoir",
@@ -1035,7 +1035,7 @@ const frameProps = {
       cover_image: "how-we-fight-for-our-lives.jpg",
       genre: "Nonfiction",
       start_date: "2019/11/24 1:00",
-      end_date: "2019/11/24 23:00"
+      end_date: "2019/11/24 23:00",
     },
     {
       title: "In the Dream House: A Memoir",
@@ -1044,7 +1044,7 @@ const frameProps = {
       cover_image: "in-the-dream-house.jpg",
       genre: "Nonfiction",
       start_date: "2019/11/25",
-      end_date: "2019/11/26"
+      end_date: "2019/11/26",
     },
     {
       title: "Persephone",
@@ -1053,7 +1053,7 @@ const frameProps = {
       cover_image: "persephone.jpg",
       genre: "Comic",
       start_date: "2019/11/27",
-      end_date: "2019/12/18"
+      end_date: "2019/12/18",
     },
     {
       title: "A History of the Bible",
@@ -1062,7 +1062,7 @@ const frameProps = {
       cover_image: "a-history-of-the-bible.jpg",
       genre: "Nonfiction",
       start_date: "2019/11/27",
-      end_date: "2019/12/24"
+      end_date: "2019/12/24",
     },
     {
       title: "The Wildstorm, Vol. 4",
@@ -1071,7 +1071,7 @@ const frameProps = {
       cover_image: "the-wildstorm-vol4.jpg",
       genre: "Comic",
       start_date: "2019/11/28",
-      end_date: "2019/12/1"
+      end_date: "2019/12/1",
     },
     {
       title: "The New Me",
@@ -1080,7 +1080,7 @@ const frameProps = {
       cover_image: "the-new-me.jpg",
       genre: "Fiction",
       start_date: "2019/11/28 1:00",
-      end_date: "2019/11/28 23:00"
+      end_date: "2019/11/28 23:00",
     },
     {
       title: "Inland",
@@ -1089,7 +1089,7 @@ const frameProps = {
       cover_image: "inland.jpg",
       genre: "Fiction",
       start_date: "2019/11/29",
-      end_date: "2019/12/3"
+      end_date: "2019/12/3",
     },
     {
       title: "The Travelers",
@@ -1098,7 +1098,7 @@ const frameProps = {
       cover_image: "the-travelers.jpg",
       genre: "Fiction",
       start_date: "2019/12/6",
-      end_date: "2019/12/15"
+      end_date: "2019/12/15",
     },
     {
       title: "Curious Toys",
@@ -1107,7 +1107,7 @@ const frameProps = {
       cover_image: "curious-toys.jpg",
       genre: "Fiction",
       start_date: "2019/12/16",
-      end_date: "2019/12/20"
+      end_date: "2019/12/20",
     },
     {
       title: "Dune",
@@ -1116,7 +1116,7 @@ const frameProps = {
       cover_image: "dune.jpg",
       genre: "Fiction",
       start_date: "2019/12/24",
-      end_date: "2019/12/27"
+      end_date: "2019/12/27",
     },
     {
       title: "Three Women",
@@ -1125,7 +1125,7 @@ const frameProps = {
       cover_image: "three-women.jpg",
       genre: "Nonfiction",
       start_date: "2019/12/29 1:00",
-      end_date: "2019/12/29 23:00"
+      end_date: "2019/12/29 23:00",
     },
     {
       title: "Trick Mirror",
@@ -1134,8 +1134,8 @@ const frameProps = {
       cover_image: "trick-mirror.jpg",
       genre: "Nonfiction",
       start_date: "2019/12/31 1:00",
-      end_date: "2020/1/1"
-    }
+      end_date: "2020/1/1",
+    },
   ],
   size: [1200, 2000],
   margin: { left: 300, top: 100, bottom: 80, right: 20 },
@@ -1143,12 +1143,12 @@ const frameProps = {
   projection: "horizontal",
   oPadding: 2,
   oAccessor: "display_title",
-  rAccessor: function(e) {
+  rAccessor: function (e) {
     return [new Date(e.start_date), new Date(e.end_date)];
   },
-  style: d => ({
+  style: (d) => ({
     fill: theme[colors[d.genre] || 0],
-    stroke: theme[(colors[d.genre] || 0) + 5]
+    stroke: theme[(colors[d.genre] || 0) + 5],
   }),
   title: "Reading Log 2019",
   foregroundGraphics: Object.keys(colors)
@@ -1162,9 +1162,9 @@ const frameProps = {
       </text>
     )),
   axes: [
-    { orient: "top", ticks: 12, tickFormat: timescaleFormat, label: "Month" }
+    { orient: "top", ticks: 12, tickFormat: timescaleFormat, label: "Month" },
   ],
-  oLabel: d => (
+  oLabel: (d) => (
     <text textAnchor="end" fontSize="11">
       {d}
     </text>
@@ -1172,7 +1172,7 @@ const frameProps = {
   rScaleType: timescale,
   pieceHoverAnnotation: true,
   hoverAnnotation: true,
-  tooltipContent: d => (
+  tooltipContent: (d) => (
     <div className="tooltip-content">
       <div className="tooltip-book-image">
         <img
@@ -1185,10 +1185,9 @@ const frameProps = {
         <p>by {d.author}</p>
         <p>Started: {new Date(d.start_date).toLocaleDateString("en-US")}</p>
         <p>Finished: {new Date(d.end_date).toLocaleDateString("en-US")}</p>
-        <p></p>
       </div>
     </div>
-  )
+  ),
 };
 
 class ReadingTimeline extends React.Component {
